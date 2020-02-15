@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "465004012634",
+    "firebase_url": "https://car-booking-322ff.firebaseio.com",
+    "project_id": "car-booking-322ff",
+    "storage_bucket": "car-booking-322ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465004012634:android:2ac8c7eb10297239",
+        "android_client_info": {
+          "package_name": "com.pool.uber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465004012634-dcphj3g29uh8r3c179b779g3vshh3pgf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pool.uber",
+            "certificate_hash": "930dfdf2fe5cadd82f130cf24ccbca52b9698105"
+          }
+        },
+        {
+          "client_id": "465004012634-0401f7esgg8c5qfc2kn4kapr9gdtpufe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyEwM5nzwhOEmtBh8yY-ayLnEFOos6WxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465004012634-0401f7esgg8c5qfc2kn4kapr9gdtpufe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

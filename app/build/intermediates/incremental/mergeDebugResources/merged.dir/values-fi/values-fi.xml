@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">Salasana ei ole tarpeeksi vahva. Siinä on oltava vähintään %1$d merkkiä – sekä kirjaimia että numeroita.</item>
+        <item quantity="other">Salasana ei ole tarpeeksi vahva. Siinä on oltava vähintään %1$d merkkiä – sekä kirjaimia että numeroita.</item>
+    </plurals>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Siirry etusivulle"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Siirry ylös"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Lisäasetukset"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Valmis"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Näytä kaikki"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Valitse sovellus"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"POIS PÄÄLTÄ"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"PÄÄLLÄ"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Vaihto+"</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"välilyönti"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Valikko+"</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Haku…"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Tyhjennä kysely"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Hakukysely"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Haku"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Lähetä kysely"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Puhehaku"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Jaa…"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Jaa: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Tiivistä"</string>
+    <string msgid="4778414446709286370" name="cast_ad_label">"Mainos"</string>
+    <string msgid="366047012176970604" name="cast_casting_to_device">"Suoratoistetaan laitteeseen %1$s"</string>
+    <string msgid="2888745622334830481" name="cast_closed_captions">"Tekstitykset"</string>
+    <string msgid="4476421850100851087" name="cast_closed_captions_unavailable">"Tekstitykset eivät ole käytettävissä."</string>
+    <string msgid="6769392312239056170" name="cast_connecting_to_device">"<ns1:g id="NAME">%1$s</ns1:g> muodostaa yhteyttä"</string>
+    <string msgid="4431992200264667209" name="cast_disconnect">"Katkaise yhteys"</string>
+    <string msgid="5668979866539349222" name="cast_expanded_controller_ad_image_description">"Kuva näytetään vastaanottimen toistaessa mainosta."</string>
+    <string msgid="9069517964239146855" name="cast_expanded_controller_ad_in_progress">"Mainos käynnissä…"</string>
+    <string msgid="8886260998635257149" name="cast_expanded_controller_background_image">"Albumin kansikuva"</string>
+    <string msgid="1316611227831672183" name="cast_expanded_controller_live_stream_indicator">"Suoratoisto"</string>
+    <string msgid="7334411994450681286" name="cast_expanded_controller_loading">"Ladataan…"</string>
+    <string msgid="8399595886048969508" name="cast_expanded_controller_skip_ad_label">"Ohita"</string>
+    <string msgid="7884080323096468593" name="cast_forward">"Kelaa eteenpäin"</string>
+    <string msgid="6424889955881797947" name="cast_forward_10">"Kelaa eteenpäin 10 sekuntia"</string>
+    <string msgid="7868672855975238403" name="cast_forward_30">"Kelaa eteenpäin 30 sekuntia"</string>
+    <string msgid="6885943100773268783" name="cast_intro_overlay_button_text">"@android:string/ok"</string>
+    <string msgid="5637297909372905371" name="cast_mute">"Mykistä"</string>
+    <string msgid="5319032370587661362" name="cast_notification_connected_message">"Yhdistetty näyttöön <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="2758865089947797888" name="cast_notification_connecting_message">"Yhdistetään näyttöön <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="2568179715202151240" name="cast_notification_default_channel_name">"Cast"</string>
+    <string msgid="5232008641593292969" name="cast_notification_disconnect">"Katkaise yhteys"</string>
+    <string msgid="5308503786390460607" name="cast_pause">"Keskeytä"</string>
+    <string msgid="5906987965619702702" name="cast_play">"Toista"</string>
+    <string msgid="1739665135565985480" name="cast_rewind">"Kelaa taaksepäin"</string>
+    <string msgid="6432793028560778843" name="cast_rewind_10">"Kelaa taaksepäin 10 sekuntia"</string>
+    <string msgid="4677199707225681325" name="cast_rewind_30">"Kelaa taaksepäin 30 sekuntia"</string>
+    <string msgid="9078075166993780241" name="cast_seek_bar">"Toiston liukusäädin"</string>
+    <string msgid="3991548379225047363" name="cast_skip_next">"Siirry seuraavaan kohteeseen"</string>
+    <string msgid="8369073097776576935" name="cast_skip_prev">"Siirry edelliseen kohteeseen"</string>
+    <string msgid="9191388946729723891" name="cast_stop">"Pysäytä"</string>
+    <string msgid="1219622777438777099" name="cast_stop_live_stream">"Pysäytä stream"</string>
+    <string msgid="4250321332248956563" name="cast_tracks_chooser_dialog_audio">"Ääni"</string>
+    <string msgid="1162380934229249476" name="cast_tracks_chooser_dialog_cancel">"Peruuta"</string>
+    <string msgid="1779359505126875127" name="cast_tracks_chooser_dialog_closed_captions">"Tekstitykset"</string>
+    <string msgid="3012268736704635952" name="cast_tracks_chooser_dialog_default_track_name">"Raita <ns1:g id="POSITION">%1$d</ns1:g>"</string>
+    <string msgid="1176688358580178396" name="cast_tracks_chooser_dialog_none">"Ei valittu"</string>
+    <string msgid="3804878371876790270" name="cast_tracks_chooser_dialog_ok">"OK"</string>
+    <string msgid="2454147715032376208" name="cast_tracks_chooser_dialog_subtitles">"Tekstitykset"</string>
+    <string msgid="2913461521603516868" name="cast_unmute">"Poista mykistys"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Ota käyttöön"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi, ellet ota Google Play Palveluita käyttöön."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Ota Google Play Palvelut käyttöön"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Asenna"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi ilman Google Play Palveluita, jotka puuttuvat laitteeltasi."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Asenna Google Play Palvelut"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play Palveluiden saatavuus"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Virhe Google Play -palveluissa"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Sovelluksella <ns1:g id="APP_NAME">%1$s</ns1:g> on ongelmia Google Play Palveluiden kanssa. Yritä uudelleen."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi ilman Google Play Palveluita, joita laitteesi ei tue."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Päivitä"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi, ellet päivitä Google Play Palveluita."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Päivitä Google Play Palvelut"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi ilman Google Play Palveluita, joita päivitetään tällä hetkellä."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Uusi Google Play Palveluiden versio tarvitaan. Se päivittyy pian."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Avaa puhelimessa"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Kirjaudu sisään"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Kirjaudu Google-tilille"</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Muut"</string>
+    <string name="fui_accessibility_logo">Sovelluksen logo</string>
+    <string name="fui_auto_verified">Puhelinnumero vahvistettu automaattisesti</string>
+    <string name="fui_button_text_save">Tallenna</string>
+    <string name="fui_button_text_send">Lähetä</string>
+    <string name="fui_cancel">Peruuta</string>
+    <string name="fui_confirm_recovery_body">Palauta salasana noudattamalla osoitteeseen %1$s lähetettyjä ohjeita.</string>
+    <string name="fui_continue">Jatka</string>
+    <string name="fui_email_account_creation_error">Sähköpostitilin rekisteröinti epäonnistui.</string>
+    <string name="fui_email_hint">Sähköposti</string>
+    <string name="fui_email_link_confirm_email_header">Vahvista sähköposti</string>
+    <string name="fui_email_link_confirm_email_message">Vahvista sähköposti jatkaaksesi kirjautumista</string>
+    <string name="fui_email_link_cross_device_linking_text">Tarkoituksesi oli yhdistää palvelu %1$s sähköpostiosoitteeseesi, mutta avasit linkin eri laitteella, johon et ollut kirjautunut.\n\Jos haluat edelleen yhdistää palvelun %1$s tilisi, avaa linkki samalla laitteella, jolla aloitit kirjautumisen. Jos haluat jatkaa kirjautumista tällä laitteella, napauta Jatka.</string>
+    <string name="fui_email_link_cross_device_sign_in_button_text">Kirjaudu palvelun %1$s kautta</string>
+    <string name="fui_email_link_different_anonymous_user_header">Istunto päättyi</string>
+    <string name="fui_email_link_different_anonymous_user_message">Tähän kirjautumispyyntöön liittyvä istunto on joko vanhentunut tai tyhjennetty.</string>
+    <string name="fui_email_link_dismiss_button">Hylkää</string>
+    <string name="fui_email_link_email_sent">Lisäohjeita sisältävä kirjautumisviesti lähetettiin osoitteeseen %1$s. Tarkista sähköpostisi kirjautumisen suorittamiseksi loppuun.</string>
+    <string name="fui_email_link_header">Kirjautumisviesti lähetetty\n</string>
+    <string name="fui_email_link_invalid_link_header">Kirjautumista ei voi suorittaa loppuun</string>
+    <string name="fui_email_link_invalid_link_message">Toimintakoodi on virheellinen. Syynä voi olla, että koodi on väärän muotoinen, vanhentunut tai jo käytetty.</string>
+    <string name="fui_email_link_resend">Lähetä uudelleen</string>
+    <string name="fui_email_link_trouble_getting_email_header">Ongelmia sähköpostiviestin saamisessa?</string>
+    <string name="fui_email_link_trouble_getting_email_resend_solution">Jos edellä olevista ratkaisuista ei ollut apua, voit lähettää viestin uudelleen. Huomaa että tällöin aiemmassa viestissä oleva linkki poistetaan käytöstä.</string>
+    <string name="fui_email_link_trouble_getting_possible_fixes">Kokeile näitä yleisiä ratkaisuja:\n\u2022 Tarkista merkittiinkö viesti roskapostiksi tai suodatettiinko se.\n\u2022 Tarkista internetyhteytesi.\n\u2022 Tarkista että kirjoitit sähköpostiosoitteesi oikein.\n\u2022 Tarkista ettei postilaatikkosi tila ole loppumassa tai ettei postilaatikon asetuksissa ole muita ongelmia.\n</string>
+    <string name="fui_email_link_wrong_device_header">Uusi laite tai selain havaittu.</string>
+    <string name="fui_email_link_wrong_device_message">Kokeile avata linkki käyttäen samaa laitetta tai selainta, jolla aloitit kirjautumisen.</string>
+    <string name="fui_enter_confirmation_code">Anna 6 merkin pituinen koodi, jonka lähetimme numeroon</string>
+    <string name="fui_error_email_does_not_exist">Sähköpostiosoite ei vastaa aiemmin luotua tiliä.</string>
+    <string name="fui_error_invalid_password">Väärä salasana</string>
+    <string name="fui_error_quota_exceeded">Puhelinnumerosi vahvistamisessa tapahtui virhe.</string>
+    <string name="fui_error_session_expired">Tämä koodi ei ole enää voimassa.</string>
+    <string name="fui_error_too_many_attempts">Tätä puhelinnumeroa on käytetty liian monta kertaa.</string>
+    <string name="fui_error_unknown">Tapahtui tuntematon virhe.</string>
+    <string name="fui_idp_name_email">Sähköposti</string>
+    <string name="fui_idp_name_facebook">Facebook</string>
+    <string name="fui_idp_name_github">GitHub</string>
+    <string name="fui_idp_name_google">Google</string>
+    <string name="fui_idp_name_phone">Puhelin</string>
+    <string name="fui_idp_name_twitter">Twitter</string>
+    <string name="fui_incorrect_code_dialog_body">Väärä koodi. Yritä uudelleen.</string>
+    <string name="fui_invalid_email_address">Virheellinen sähköpostiosoite</string>
+    <string name="fui_invalid_phone_number">Anna voimassa oleva puhelinnumero.</string>
+    <string name="fui_missing_email_address">Jatka antamalla sähköpostiosoite.</string>
+    <string name="fui_missing_first_and_last_name">Lisää etu- ja sukunimi.</string>
+    <string name="fui_name_hint">Etu- ja sukunimi</string>
+    <string name="fui_next_default">Seuraava</string>
+    <string name="fui_no_internet" translation_descripition="User message shown when sign-in is attempted while offline.">Verkkovirhe, tarkista internetyhteys.</string>
+    <string name="fui_password_hint">Salasana</string>
+    <string name="fui_password_recovery_body">Tilaa tähän sähköpostiin ohjeet, joissa neuvotaan, miten voit nollata salasanan.</string>
+    <string name="fui_phone_hint">Puhelinnumero</string>
+    <string name="fui_privacy_policy">tietosuojakäytännön</string>
+    <string name="fui_progress_dialog_checking_accounts">Tarkistetaan nykyisiä tilejä…</string>
+    <string name="fui_progress_dialog_loading">Ladataan…</string>
+    <string name="fui_progress_dialog_sending">Lähetetään…</string>
+    <string name="fui_progress_dialog_signing_in">Kirjaudutaan sisään…</string>
+    <string name="fui_progress_dialog_signing_up">Rekisteröityminen käynnissä…</string>
+    <string name="fui_required_field">Tätä ei voi jättää tyhjäksi.</string>
+    <string name="fui_resend_code">Lähetä koodi uudelleen</string>
+    <string name="fui_resend_code_in">Lähetä koodi uudelleen seuraavan ajan kuluttua: 0:%02d.</string>
+    <string name="fui_sign_in_anonymously">Jatka vieraana</string>
+    <string name="fui_sign_in_default">Kirjaudu sisään</string>
+    <string name="fui_sign_in_with_apple">Kirjaudu sisään Apple-tilillä</string>
+    <string name="fui_sign_in_with_email">Kirjaudu sähköpostilla</string>
+    <string name="fui_sign_in_with_facebook">Kirjaudu Facebook-tilillä</string>
+    <string name="fui_sign_in_with_github">Kirjaudu GitHub-tilillä</string>
+    <string name="fui_sign_in_with_google">Kirjaudu Google-tilillä</string>
+    <string name="fui_sign_in_with_microsoft">Kirjaudu sisään Microsoft-tilillä</string>
+    <string name="fui_sign_in_with_phone">Kirjaudu puhelimella</string>
+    <string name="fui_sign_in_with_phone_number">Kirjaudu puhelinnumerolla</string>
+    <string name="fui_sign_in_with_twitter">Kirjaudu Twitter-tilillä</string>
+    <string name="fui_sign_in_with_yahoo">Kirjaudu sisään Yahoo-tilillä</string>
+    <string name="fui_sms_terms_of_service">Kun napautat %1$s, tekstiviesti voidaan lähettää. Datan ja viestien käyttö voi olla maksullista.</string>
+    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">Napauttamalla %1$s vahvistat hyväksyväsi seuraavat: %2$s ja %3$s. Tekstiviesti voidaan lähettää, ja datan ja viestien käyttö voi olla maksullista.</string>
+    <string name="fui_terms_of_service">Käyttöehdot</string>
+    <string name="fui_title_confirm_recover_password">Tarkista sähköpostisi</string>
+    <string name="fui_title_recover_password_activity">Palauta salasana</string>
+    <string name="fui_title_register_email">Hanki tili</string>
+    <string name="fui_tos_and_pp">Jatkamalla vahvistat, että hyväksyt seuraavat: %1$s ja %2$s.</string>
+    <string name="fui_tos_and_pp_footer">%1$s \u00A0 \u00A0 %2$s</string>
+    <string name="fui_trouble_signing_in">Eikö kirjautuminen onnistu?</string>
+    <string name="fui_verify_phone_number">Vahvista puhelinnumero</string>
+    <string name="fui_verify_phone_number_title">Anna puhelinnumerosi</string>
+    <string name="fui_verify_your_phone_title">Puhelinnumeron vahvistaminen</string>
+    <string name="fui_verifying">Vahvistetaan…</string>
+    <string name="fui_welcome_back_email_header">Tervetuloa takaisin!</string>
+    <string name="fui_welcome_back_email_link_header">Sinulla on jo tili\n</string>
+    <string name="fui_welcome_back_email_link_prompt_body">%1$s on jo käytössä. Voit yhdistää %2$s ‑tilin sähköpostiosoitteeseen %1$s kirjautumalla sisään alla olevasta sähköpostilinkistä.\n\nJotta palvelun %2$s tilisi voidaan yhdistää tähän sähköpostiosoitteeseen tällä prosessilla, sinun on avattava linkki samalla laitteella tai selaimella.</string>
+    <string name="fui_welcome_back_idp_header">Sinulla on jo tili.</string>
+    <string name="fui_welcome_back_idp_prompt">Olet jo käyttänyt osoitetta %1$s. Jatka kirjautumalla palvelun %2$s kautta.</string>
+    <string name="fui_welcome_back_password_prompt_body">Olet jo käyttänyt osoitetta %1$s kirjautumiseen. Anna kyseisen tilin salasana.</string>
+    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"Muut"</string>
+    <string msgid="1685185767093348095" name="mr_button_content_description">"Cast-painike"</string>
+    <string msgid="1350095112462806159" name="mr_cast_button_connected">"Cast-painike. Yhdistetty"</string>
+    <string msgid="8959304318293841992" name="mr_cast_button_connecting">"Cast-painike. Yhdistetään"</string>
+    <string msgid="5501231066847739632" name="mr_cast_button_disconnected">"Cast-painike. Yhteys katkaistu"</string>
+    <string msgid="5504553798429329689" name="mr_chooser_searching">"Etsitään laitteita"</string>
+    <string msgid="7548226170787476564" name="mr_chooser_title">"Suoratoiston kohde"</string>
+    <string msgid="5813284753012893250" name="mr_controller_album_art">"Albumin kansikuva"</string>
+    <string msgid="5286734709674025661" name="mr_controller_casting_screen">"Suoratoistetaan näyttöä"</string>
+    <string msgid="5468775621814500662" name="mr_controller_close_description">"Sulje"</string>
+    <string msgid="5518911192681928413" name="mr_controller_collapse_group">"Tiivistä"</string>
+    <string msgid="1370654436555555647" name="mr_controller_disconnect">"Katkaise yhteys"</string>
+    <string msgid="2422682304043876468" name="mr_controller_expand_group">"Laajenna"</string>
+    <string msgid="7299368841849988218" name="mr_controller_no_info_available">"Ei tietoja saatavilla"</string>
+    <string msgid="4342878516155861006" name="mr_controller_no_media_selected">"Ei valittua mediaa"</string>
+    <string msgid="4701315813294065305" name="mr_controller_pause">"Keskeytä"</string>
+    <string msgid="4443315438268112801" name="mr_controller_play">"Toista"</string>
+    <string msgid="5106056093749454009" name="mr_controller_stop">"Pysäytä"</string>
+    <string msgid="7617024847862349259" name="mr_controller_stop_casting">"Lopeta suoratoisto"</string>
+    <string msgid="691656961160498512" name="mr_controller_volume_slider">"Äänenvoimakkuuden liukusäädin"</string>
+    <string msgid="3117964881088969586" name="mr_system_route_name">"Järjestelmä"</string>
+    <string msgid="8236416097133080726" name="mr_user_route_category_name">"Laitteet"</string>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"Tyhjennä haku."</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"Haku"</string>
+    <string msgid="368094699078615544" name="s1">"Tallenna kuva"</string>
+    <string msgid="4550830452390689489" name="s2">"Myönnetäänkö mainokselle oikeus tallentaa kuva galleriaan?"</string>
+    <string msgid="2435407834265420668" name="s3">"Hyväksy"</string>
+    <string msgid="9167523597401839819" name="s4">"Hylkää"</string>
+    <string msgid="1566682516266724847" name="s5">"Luo kalenteritapahtuma"</string>
+    <string msgid="5996672174517137271" name="s6">"Myönnetäänkö mainokselle oikeus luoda kalenteritapahtuma?"</string>
+    <string msgid="7163549807207034258" name="s7">"Testimainos"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Haku"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Maksa Googlen kautta"</string>
+</resources>

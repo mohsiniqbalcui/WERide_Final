@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="fui_error_weak_password">
+        <item quantity="one">Lösenordet är inte tillräckligt starkt. Använd minst %1$d tecken och en blandning av bokstäver och siffror.</item>
+        <item quantity="other">Lösenordet är inte tillräckligt starkt. Använd minst %1$d tecken och en blandning av bokstäver och siffror.</item>
+    </plurals>
+    <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Navigera hem"</string>
+    <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Navigera uppåt"</string>
+    <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Fler alternativ"</string>
+    <string msgid="2571498368472823490" name="abc_action_mode_done">"Klar"</string>
+    <string msgid="3732416590524162402" name="abc_activity_chooser_view_see_all">"Visa alla"</string>
+    <string msgid="1798588241954930982" name="abc_activitychooserview_choose_application">"Välj en app"</string>
+    <string msgid="3403923230105792483" name="abc_capital_off">"AV"</string>
+    <string msgid="7831734969929204599" name="abc_capital_on">"PÅ"</string>
+    <string msgid="5725160506500770567" name="abc_menu_alt_shortcut_label">"Alt + "</string>
+    <string msgid="944415252197684443" name="abc_menu_ctrl_shortcut_label">"Ctrl + "</string>
+    <string msgid="129742188101734366" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="6840127756824236027" name="abc_menu_enter_shortcut_label">"retur"</string>
+    <string msgid="4974283687810130415" name="abc_menu_function_shortcut_label">"Funktion + "</string>
+    <string msgid="8046416353848716905" name="abc_menu_meta_shortcut_label">"Meta + "</string>
+    <string msgid="3271697756921353410" name="abc_menu_shift_shortcut_label">"Skift + "</string>
+    <string msgid="2304645930658438191" name="abc_menu_space_shortcut_label">"blanksteg"</string>
+    <string msgid="8327365089695024394" name="abc_menu_sym_shortcut_label">"Symbol + "</string>
+    <string msgid="3570106412128999382" name="abc_prepend_shortcut_label">"Meny + "</string>
+    <string msgid="940844115270746197" name="abc_search_hint">"Sök …"</string>
+    <string msgid="1769270744562318534" name="abc_searchview_description_clear">"Ta bort frågan"</string>
+    <string msgid="908784302972860853" name="abc_searchview_description_query">"Sökfråga"</string>
+    <string msgid="5466662225065974044" name="abc_searchview_description_search">"Sök"</string>
+    <string msgid="8203855622131699655" name="abc_searchview_description_submit">"Skicka fråga"</string>
+    <string msgid="3478748990613108725" name="abc_searchview_description_voice">"Röstsökning"</string>
+    <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Dela med"</string>
+    <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Dela med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Komprimera"</string>
+    <string msgid="4778414446709286370" name="cast_ad_label">"Annons"</string>
+    <string msgid="366047012176970604" name="cast_casting_to_device">"Castar till %1$s"</string>
+    <string msgid="2888745622334830481" name="cast_closed_captions">"Textning"</string>
+    <string msgid="4476421850100851087" name="cast_closed_captions_unavailable">"Textning är inte tillgänglig"</string>
+    <string msgid="6769392312239056170" name="cast_connecting_to_device">"Ansluter till <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="4431992200264667209" name="cast_disconnect">"Koppla från"</string>
+    <string msgid="5668979866539349222" name="cast_expanded_controller_ad_image_description">"Bild som visas medan en annons spelas upp på Cast-mottagaren"</string>
+    <string msgid="9069517964239146855" name="cast_expanded_controller_ad_in_progress">"Pågående annons …"</string>
+    <string msgid="8886260998635257149" name="cast_expanded_controller_background_image">"Skivomslag"</string>
+    <string msgid="1316611227831672183" name="cast_expanded_controller_live_stream_indicator">"Livestream"</string>
+    <string msgid="7334411994450681286" name="cast_expanded_controller_loading">"Läser in …"</string>
+    <string msgid="8399595886048969508" name="cast_expanded_controller_skip_ad_label">"Hoppa över"</string>
+    <string msgid="7884080323096468593" name="cast_forward">"Framåt"</string>
+    <string msgid="6424889955881797947" name="cast_forward_10">"Tio sekunder framåt"</string>
+    <string msgid="7868672855975238403" name="cast_forward_30">"Trettio sekunder framåt"</string>
+    <string msgid="6885943100773268783" name="cast_intro_overlay_button_text">"@android:string/ok"</string>
+    <string msgid="5637297909372905371" name="cast_mute">"Stäng av ljudet"</string>
+    <string msgid="5319032370587661362" name="cast_notification_connected_message">"Ansluten till <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="2758865089947797888" name="cast_notification_connecting_message">"Ansluter till <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="2568179715202151240" name="cast_notification_default_channel_name">"Cast"</string>
+    <string msgid="5232008641593292969" name="cast_notification_disconnect">"Koppla från"</string>
+    <string msgid="5308503786390460607" name="cast_pause">"Pausa"</string>
+    <string msgid="5906987965619702702" name="cast_play">"Spela upp"</string>
+    <string msgid="1739665135565985480" name="cast_rewind">"Spola tillbaka"</string>
+    <string msgid="6432793028560778843" name="cast_rewind_10">"Spola tillbaka tio sekunder"</string>
+    <string msgid="4677199707225681325" name="cast_rewind_30">"Spola tillbaka trettio sekunder"</string>
+    <string msgid="9078075166993780241" name="cast_seek_bar">"Sökreglage för uppspelning"</string>
+    <string msgid="3991548379225047363" name="cast_skip_next">"Hoppa till nästa objekt"</string>
+    <string msgid="8369073097776576935" name="cast_skip_prev">"Hoppa till föregående objekt"</string>
+    <string msgid="9191388946729723891" name="cast_stop">"Stoppa"</string>
+    <string msgid="1219622777438777099" name="cast_stop_live_stream">"Stoppa liveströmningen"</string>
+    <string msgid="4250321332248956563" name="cast_tracks_chooser_dialog_audio">"Ljud"</string>
+    <string msgid="1162380934229249476" name="cast_tracks_chooser_dialog_cancel">"Avbryt"</string>
+    <string msgid="1779359505126875127" name="cast_tracks_chooser_dialog_closed_captions">"Med textning"</string>
+    <string msgid="3012268736704635952" name="cast_tracks_chooser_dialog_default_track_name">"Spår <ns1:g id="POSITION">%1$d</ns1:g>"</string>
+    <string msgid="1176688358580178396" name="cast_tracks_chooser_dialog_none">"Inga"</string>
+    <string msgid="3804878371876790270" name="cast_tracks_chooser_dialog_ok">"Ok"</string>
+    <string msgid="2454147715032376208" name="cast_tracks_chooser_dialog_subtitles">"Undertexter"</string>
+    <string msgid="2913461521603516868" name="cast_unmute">"Slå på ljudet"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktivera"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerar inte om du inte aktiverar Google Play-tjänster."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Aktivera Google Play-tjänster"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installera"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan inte köras utan Google Play-tjänsterna, som saknas på enheten."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Hämta Google Play-tjänster"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Tillgänglighet för Google Plays tjänster"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Fel på Google Play-tjänster"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Det har uppstått ett fel mellan <ns1:g id="APP_NAME">%1$s</ns1:g> och Google Play-tjänsterna. Försök igen."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerar inte utan Google Play-tjänsterna, som inte stöds på enheten."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Uppdatera"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan inte köras om du inte uppdaterar Google Play-tjänsterna."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Uppdatera Google Play-tjänster"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan inte köras utan Google Play-tjänster, och dessa uppdateras för närvarande."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"En ny version av Google Play-tjänster krävs. Den uppdateras automatiskt inom kort."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Öppna på mobilen"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Logga in"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Logga in med Google"</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Diverse"</string>
+    <string name="fui_accessibility_logo">Appens logotyp</string>
+    <string name="fui_auto_verified">Telefonnumret verifierades automatiskt</string>
+    <string name="fui_button_text_save">Spara</string>
+    <string name="fui_button_text_send">Skicka</string>
+    <string name="fui_cancel">Avbryt</string>
+    <string name="fui_confirm_recovery_body">Följ anvisningarna som har skickats till %1$s för att återställa ditt lösenord.</string>
+    <string name="fui_continue">Fortsätt</string>
+    <string name="fui_email_account_creation_error">Det gick inte att registrera e-postkontot</string>
+    <string name="fui_email_hint">E-post</string>
+    <string name="fui_email_link_confirm_email_header">Bekräfta e-postadress</string>
+    <string name="fui_email_link_confirm_email_message">Bekräfta e-postadressen om du vill fortsätta med inloggningen</string>
+    <string name="fui_email_link_cross_device_linking_text">Du skulle ansluta %1$s till ditt e-postkonto men har öppnat länken på en annan enhet där du inte är inloggad.\n\nOm du fortfarande vill ansluta ditt %1$s-konto ska du öppna länken på den enhet där du påbörjade inloggningen. Annars kan du klicka på Fortsätt för att logga in på den här enheten.</string>
+    <string name="fui_email_link_cross_device_sign_in_button_text">Logga in med %1$s</string>
+    <string name="fui_email_link_different_anonymous_user_header">Sessionen är avslutad</string>
+    <string name="fui_email_link_different_anonymous_user_message">Sessionen som hör till den här inloggningsförfrågan har antingen upphört att gälla eller tagits bort.</string>
+    <string name="fui_email_link_dismiss_button">Stäng</string>
+    <string name="fui_email_link_email_sent">Ett inloggningsmeddelande med instruktioner skickades till %1$s. Kontrollera din e-post för att slutföra inloggningen.</string>
+    <string name="fui_email_link_header">Inloggningsmeddelande skickat\n</string>
+    <string name="fui_email_link_invalid_link_header">Det går inte att slutföra inloggningen</string>
+    <string name="fui_email_link_invalid_link_message">Åtgärdskoden är ogiltig. Det här kan inträffa om kodformatet är felaktigt, om koden har upphört att gälla eller om den redan har använts.</string>
+    <string name="fui_email_link_resend">Skicka igen</string>
+    <string name="fui_email_link_trouble_getting_email_header">Fick du inget e-postmeddelande?</string>
+    <string name="fui_email_link_trouble_getting_email_resend_solution">Om ovanstående lösningar inte fungerar kan du testa att skicka meddelandet igen. Länken i det gamla meddelandet inaktiveras.</string>
+    <string name="fui_email_link_trouble_getting_possible_fixes">Prova dessa vanliga lösningar:\n\u2022 Kontrollera om meddelandet hamnade bland skräpposten eller filtrerades.\n\u2022 Kontrollera internetanslutningen.\n\u2022 Kontrollera att du inte stavade e-postadressen fel.\n\u2022 Kontrollera att du inte har ont om utrymme i inkorgen samt andra inkorgsrelaterade problem.\n</string>
+    <string name="fui_email_link_wrong_device_header">Ny enhet eller webbläsare identifierad.</string>
+    <string name="fui_email_link_wrong_device_message">Testa att öppna länken med samma enhet eller webbläsare som du använde när du påbörjade inloggningen.</string>
+    <string name="fui_enter_confirmation_code">Ange den sexsiffriga koden vi skickade till</string>
+    <string name="fui_error_email_does_not_exist">E-postadressen matchar inget befintligt konto</string>
+    <string name="fui_error_invalid_password">Felaktigt lösenord.</string>
+    <string name="fui_error_quota_exceeded">Det gick inte att verifiera telefonnumret</string>
+    <string name="fui_error_session_expired">Koden är inte längre giltig</string>
+    <string name="fui_error_too_many_attempts">Det här telefonnumret har använts för många gånger</string>
+    <string name="fui_error_unknown">Ett okänt fel uppstod.</string>
+    <string name="fui_idp_name_email">E-post</string>
+    <string name="fui_idp_name_facebook">Facebook</string>
+    <string name="fui_idp_name_github">GitHub</string>
+    <string name="fui_idp_name_google">Google</string>
+    <string name="fui_idp_name_phone">Mobil</string>
+    <string name="fui_idp_name_twitter">Twitter</string>
+    <string name="fui_incorrect_code_dialog_body">Fel kod. Försök igen.</string>
+    <string name="fui_invalid_email_address">E-postadressen är ogiltig</string>
+    <string name="fui_invalid_phone_number">Ange ett giltigt telefonnummer</string>
+    <string name="fui_missing_email_address">Ange din e-postadress om du vill fortsätta</string>
+    <string name="fui_missing_first_and_last_name">Ange för- och efternamn.</string>
+    <string name="fui_name_hint">För- och efternamn</string>
+    <string name="fui_next_default">Nästa</string>
+    <string name="fui_no_internet" translation_descripition="User message shown when sign-in is attempted while offline.">Nätverksfel, kontrollera din internetanslutning.</string>
+    <string name="fui_password_hint">Lösenord</string>
+    <string name="fui_password_recovery_body">Få ett e-postmeddelande med anvisningar för hur du återställer lösenordet.</string>
+    <string name="fui_phone_hint">Telefonnummer</string>
+    <string name="fui_privacy_policy">Sekretesspolicy</string>
+    <string name="fui_progress_dialog_checking_accounts">Söker efter befintliga konton…</string>
+    <string name="fui_progress_dialog_loading">Läser in…</string>
+    <string name="fui_progress_dialog_sending">Skickar…</string>
+    <string name="fui_progress_dialog_signing_in">Loggar in…</string>
+    <string name="fui_progress_dialog_signing_up">Registrerar…</string>
+    <string name="fui_required_field">Du måste fylla i det här fältet.</string>
+    <string name="fui_resend_code">Skicka koden igen</string>
+    <string name="fui_resend_code_in">Skicka kod igen om 0:%02d</string>
+    <string name="fui_sign_in_anonymously">Fortsätt som gäst</string>
+    <string name="fui_sign_in_default">Logga in</string>
+    <string name="fui_sign_in_with_apple">Logga in med Apple</string>
+    <string name="fui_sign_in_with_email">Logga in med e-post</string>
+    <string name="fui_sign_in_with_facebook">Logga in med Facebook</string>
+    <string name="fui_sign_in_with_github">Logga in med GitHub</string>
+    <string name="fui_sign_in_with_google">Logga in med Google</string>
+    <string name="fui_sign_in_with_microsoft">Logga in med Microsoft</string>
+    <string name="fui_sign_in_with_phone">Logga in med telefon</string>
+    <string name="fui_sign_in_with_phone_number">Logga in med telefonnummer</string>
+    <string name="fui_sign_in_with_twitter">Logga in med Twitter</string>
+    <string name="fui_sign_in_with_yahoo">Logga in med Yahoo</string>
+    <string name="fui_sms_terms_of_service">Genom att trycka på %1$s skickas ett sms. Meddelande- och dataavgifter kan tillkomma.</string>
+    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">Genom att trycka på %1$s godkänner du våra %2$s och vår %3$s. Ett sms kan skickas. Meddelande- och dataavgifter kan tillkomma.</string>
+    <string name="fui_terms_of_service">användarvillkoren</string>
+    <string name="fui_title_confirm_recover_password">Kolla dina e-postmeddelanden</string>
+    <string name="fui_title_recover_password_activity">Återställa lösenord</string>
+    <string name="fui_title_register_email">Registrera dig</string>
+    <string name="fui_tos_and_pp">Genom att fortsätta godkänner du våra %1$s och vår %2$s.</string>
+    <string name="fui_tos_and_pp_footer">%1$s \u00A0 \u00A0 %2$s</string>
+    <string name="fui_trouble_signing_in">Har du problem med att logga in?</string>
+    <string name="fui_verify_phone_number">Verifiera telefonnummer</string>
+    <string name="fui_verify_phone_number_title">Ange ditt telefonnummer</string>
+    <string name="fui_verify_your_phone_title">Verifiera ditt telefonnummer</string>
+    <string name="fui_verifying">Verifierar …</string>
+    <string name="fui_welcome_back_email_header">Välkommen tillbaka!</string>
+    <string name="fui_welcome_back_email_link_header">Du har redan ett konto\n</string>
+    <string name="fui_welcome_back_email_link_prompt_body">Du har redan använt %1$s. Du kan ansluta %2$s-kontot med %1$s genom att logga in via länken nedan.\n\nDu måste öppna länken på samma enhet eller i samma webbläsare för att %2$s-kontot ska anslutas med den här e-postadressen.</string>
+    <string name="fui_welcome_back_idp_header">Du har redan ett konto</string>
+    <string name="fui_welcome_back_idp_prompt">Du har redan använt %1$s. Logga in med %2$s om du vill fortsätta.</string>
+    <string name="fui_welcome_back_password_prompt_body">Du har redan loggat in med %1$s. Ange lösenordet för det kontot.</string>
+    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"Diverse"</string>
+    <string msgid="1685185767093348095" name="mr_button_content_description">"Cast-knappen"</string>
+    <string msgid="1350095112462806159" name="mr_cast_button_connected">"Cast-knappen. Ansluten"</string>
+    <string msgid="8959304318293841992" name="mr_cast_button_connecting">"Cast-knappen. Ansluter"</string>
+    <string msgid="5501231066847739632" name="mr_cast_button_disconnected">"Cast-knappen. Frånkopplad"</string>
+    <string msgid="5504553798429329689" name="mr_chooser_searching">"Letar efter enheter"</string>
+    <string msgid="7548226170787476564" name="mr_chooser_title">"Casta till"</string>
+    <string msgid="5813284753012893250" name="mr_controller_album_art">"Skivomslag"</string>
+    <string msgid="5286734709674025661" name="mr_controller_casting_screen">"Skärmen castas"</string>
+    <string msgid="5468775621814500662" name="mr_controller_close_description">"Stäng"</string>
+    <string msgid="5518911192681928413" name="mr_controller_collapse_group">"Dölj"</string>
+    <string msgid="1370654436555555647" name="mr_controller_disconnect">"Koppla från"</string>
+    <string msgid="2422682304043876468" name="mr_controller_expand_group">"Utöka"</string>
+    <string msgid="7299368841849988218" name="mr_controller_no_info_available">"Det finns ingen information"</string>
+    <string msgid="4342878516155861006" name="mr_controller_no_media_selected">"Ingen media har valts"</string>
+    <string msgid="4701315813294065305" name="mr_controller_pause">"Pausa"</string>
+    <string msgid="4443315438268112801" name="mr_controller_play">"Spela upp"</string>
+    <string msgid="5106056093749454009" name="mr_controller_stop">"Stopp"</string>
+    <string msgid="7617024847862349259" name="mr_controller_stop_casting">"Sluta casta"</string>
+    <string msgid="691656961160498512" name="mr_controller_volume_slider">"Volymreglage"</string>
+    <string msgid="3117964881088969586" name="mr_system_route_name">"System"</string>
+    <string msgid="8236416097133080726" name="mr_user_route_category_name">"Enheter"</string>
+    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"Rensa sökning"</string>
+    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"Söka"</string>
+    <string msgid="368094699078615544" name="s1">"Spara bild"</string>
+    <string msgid="4550830452390689489" name="s2">"Tillåter du att annonsen sparar bilden i Bildgalleriet?"</string>
+    <string msgid="2435407834265420668" name="s3">"Godkänn"</string>
+    <string msgid="9167523597401839819" name="s4">"Godkänn inte"</string>
+    <string msgid="1566682516266724847" name="s5">"Skapa kalenderhändelse"</string>
+    <string msgid="5996672174517137271" name="s6">"Tillåter du att annonsen skapar en kalenderhändelse?"</string>
+    <string msgid="7163549807207034258" name="s7">"Testannons"</string>
+    <string msgid="730395136688082741" name="search_menu_title">"Sök"</string>
+    <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Köp med Google"</string>
+</resources>
