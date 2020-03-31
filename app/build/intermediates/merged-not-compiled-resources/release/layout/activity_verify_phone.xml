@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pool.weRide.verifyPhoneActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="98dp"
+            android:foregroundGravity="center_horizontal"
+            android:background="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/tvnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="52dp"
+            android:text="Enter one time security code sended to "
+            android:layout_alignParentBottom="true"
+            android:textColor="#000000 "
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/relativeLayout"
+        android:layout_marginTop="-50dp"
+         />
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="401dp"
+        android:layout_height="476dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="-116dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="216dp"
+            android:background="@drawable/buttonshape"
+            android:text="confirm OTP"
+            android:textAllCaps="false"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editTextCode"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progressbar"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="16dp"
+            android:digits="0123456789"
+            android:drawableEnd="@drawable/icons8_security_checked_24px_1"
+            android:drawablePadding="10dp"
+            android:hint="code"
+            android:inputType="phone"
+            android:maxLength="10" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:outlineAmbientShadowColor="@color/design_default_color_primary"
+            android:layout_below="@id/textView"
+            android:layout_centerHorizontal="true"
+            tools:ignore="NotSibling" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
