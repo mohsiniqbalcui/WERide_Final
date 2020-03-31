@@ -12,13 +12,13 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int cio_card_io_logo = 0x7f08009c;
-        public static final int cio_ic_amex = 0x7f08009d;
-        public static final int cio_ic_discover = 0x7f08009e;
-        public static final int cio_ic_jcb = 0x7f08009f;
-        public static final int cio_ic_mastercard = 0x7f0800a0;
-        public static final int cio_ic_paypal_monogram = 0x7f0800a1;
-        public static final int cio_ic_visa = 0x7f0800a2;
-        public static final int cio_paypal_logo = 0x7f0800a3;
+        public static final int cio_card_io_logo = 0x7f070079;
+        public static final int cio_ic_amex = 0x7f07007a;
+        public static final int cio_ic_discover = 0x7f07007b;
+        public static final int cio_ic_jcb = 0x7f07007c;
+        public static final int cio_ic_mastercard = 0x7f07007d;
+        public static final int cio_ic_paypal_monogram = 0x7f07007e;
+        public static final int cio_ic_visa = 0x7f07007f;
+        public static final int cio_paypal_logo = 0x7f070080;
     }
 }

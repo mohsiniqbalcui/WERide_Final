@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <plurals name="fui_error_weak_password">
-        <item quantity="one">Parola nu este suficient de puternică. Folosiți cel puțin %1$d caracter și o combinație de litere și cifre.</item>
-        <item quantity="few">Parola nu este suficient de puternică. Folosiți cel puțin %1$d caractere și o combinație de litere și cifre.</item>
-        <item quantity="other">Parola nu este suficient de puternică. Folosiți cel puțin %1$d de caractere și o combinație de litere și cifre.</item>
-    </plurals>
     <string msgid="7903180715631665059" name="abc_action_bar_home_description">"Navigați la ecranul de pornire"</string>
     <string msgid="6794660482873516081" name="abc_action_bar_up_description">"Navigați în sus"</string>
     <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"Mai multe opțiuni"</string>
@@ -32,45 +27,6 @@
     <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"Trimiteți la"</string>
     <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"Trimiteți folosind <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"Restrângeți"</string>
-    <string msgid="4778414446709286370" name="cast_ad_label">"Anunț"</string>
-    <string msgid="366047012176970604" name="cast_casting_to_device">"Se proiectează pe %1$s"</string>
-    <string msgid="2888745622334830481" name="cast_closed_captions">"Subtitrări"</string>
-    <string msgid="4476421850100851087" name="cast_closed_captions_unavailable">"Subtitrările nu sunt disponibile"</string>
-    <string msgid="6769392312239056170" name="cast_connecting_to_device">"Se conectează la <ns1:g id="NAME">%1$s</ns1:g>"</string>
-    <string msgid="4431992200264667209" name="cast_disconnect">"Deconectați-vă"</string>
-    <string msgid="5668979866539349222" name="cast_expanded_controller_ad_image_description">"Imagine afișată în timp ce receiverul Cast redă un anunț"</string>
-    <string msgid="9069517964239146855" name="cast_expanded_controller_ad_in_progress">"Anunț în desfășurare…"</string>
-    <string msgid="8886260998635257149" name="cast_expanded_controller_background_image">"Grafica albumului"</string>
-    <string msgid="1316611227831672183" name="cast_expanded_controller_live_stream_indicator">"Flux live"</string>
-    <string msgid="7334411994450681286" name="cast_expanded_controller_loading">"Se încarcă…"</string>
-    <string msgid="8399595886048969508" name="cast_expanded_controller_skip_ad_label">"Omiteți"</string>
-    <string msgid="7884080323096468593" name="cast_forward">"Derulați înainte"</string>
-    <string msgid="6424889955881797947" name="cast_forward_10">"Derulați înainte 10 secunde"</string>
-    <string msgid="7868672855975238403" name="cast_forward_30">"Derulați înainte 30 de secunde"</string>
-    <string msgid="6885943100773268783" name="cast_intro_overlay_button_text">"@android:string/ok"</string>
-    <string msgid="5637297909372905371" name="cast_mute">"Dezactivați sunetul"</string>
-    <string msgid="5319032370587661362" name="cast_notification_connected_message">"Conectat la <ns1:g id="NAME">%1$s</ns1:g>"</string>
-    <string msgid="2758865089947797888" name="cast_notification_connecting_message">"Se conectează la <ns1:g id="NAME">%1$s</ns1:g>"</string>
-    <string msgid="2568179715202151240" name="cast_notification_default_channel_name">"Cast"</string>
-    <string msgid="5232008641593292969" name="cast_notification_disconnect">"Deconectați"</string>
-    <string msgid="5308503786390460607" name="cast_pause">"Întrerupeți"</string>
-    <string msgid="5906987965619702702" name="cast_play">"Redați"</string>
-    <string msgid="1739665135565985480" name="cast_rewind">"Derulați înapoi"</string>
-    <string msgid="6432793028560778843" name="cast_rewind_10">"Derulați înapoi 10 secunde"</string>
-    <string msgid="4677199707225681325" name="cast_rewind_30">"Derulați înapoi 30 de secunde"</string>
-    <string msgid="9078075166993780241" name="cast_seek_bar">"Comandă de căutare pentru redare"</string>
-    <string msgid="3991548379225047363" name="cast_skip_next">"Treceți la elementul următor"</string>
-    <string msgid="8369073097776576935" name="cast_skip_prev">"Treceți la elementul anterior"</string>
-    <string msgid="9191388946729723891" name="cast_stop">"Opriți"</string>
-    <string msgid="1219622777438777099" name="cast_stop_live_stream">"Opriți fluxul live"</string>
-    <string msgid="4250321332248956563" name="cast_tracks_chooser_dialog_audio">"Conținut audio"</string>
-    <string msgid="1162380934229249476" name="cast_tracks_chooser_dialog_cancel">"Anulați"</string>
-    <string msgid="1779359505126875127" name="cast_tracks_chooser_dialog_closed_captions">"Subtitrări"</string>
-    <string msgid="3012268736704635952" name="cast_tracks_chooser_dialog_default_track_name">"Înregistrarea audio <ns1:g id="POSITION">%1$d</ns1:g>"</string>
-    <string msgid="1176688358580178396" name="cast_tracks_chooser_dialog_none">"Niciuna"</string>
-    <string msgid="3804878371876790270" name="cast_tracks_chooser_dialog_ok">"OK"</string>
-    <string msgid="2454147715032376208" name="cast_tracks_chooser_dialog_subtitles">"Subtitrări"</string>
-    <string msgid="2913461521603516868" name="cast_unmute">"Activați sunetul"</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Activați"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> nu va funcționa decât dacă activați serviciile Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Activați serviciile Google Play"</string>
@@ -90,128 +46,14 @@
     <string msgid="3441753203274453993" name="common_signin_button_text">"Conectați-vă"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Conectați-vă cu Google"</string>
     <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Diverse"</string>
-    <string name="fui_accessibility_logo">Sigla aplicației</string>
-    <string name="fui_auto_verified">Numărul de telefon este verificat automat</string>
-    <string name="fui_button_text_save">Salvați</string>
-    <string name="fui_button_text_send">Trimiteți</string>
-    <string name="fui_cancel">Anulați</string>
-    <string name="fui_confirm_recovery_body">Urmați instrucțiunile trimise la %1$s pentru a vă recupera parola.</string>
-    <string name="fui_continue">Continuați</string>
-    <string name="fui_email_account_creation_error">Contul de e-mail nu a fost înregistrat</string>
-    <string name="fui_email_hint">Adresă de e-mail</string>
-    <string name="fui_email_link_confirm_email_header">Confirmați adresa de e-mail</string>
-    <string name="fui_email_link_confirm_email_message">Confirmați adresa de e-mail pentru a continua conectarea</string>
-    <string name="fui_email_link_cross_device_linking_text">Inițial ați intenționat să conectați %1$s la contul de e-mail, dar ați deschis linkul pe un dispozitiv pe care nu sunteți conectat(ă).\n\nDacă doriți să continuați conectarea contului %1$s, deschideți linkul pe același dispozitiv pe care ați început conectarea. În caz contrar, atingeți Continuați pentru a vă conecta pe acest dispozitiv.</string>
-    <string name="fui_email_link_cross_device_sign_in_button_text">Conectați-vă cu %1$s</string>
-    <string name="fui_email_link_different_anonymous_user_header">S-a încheiat sesiunea</string>
-    <string name="fui_email_link_different_anonymous_user_message">Sesiunea asociată acestei solicitări de conectare a expirat sau a fost ștearsă.</string>
-    <string name="fui_email_link_dismiss_button">Închideți</string>
-    <string name="fui_email_link_email_sent">Un e-mail de conectare cu instrucțiuni suplimentare a fost trimis la %1$s. Verificați-vă căsuța de e-mail pentru a finaliza conectarea.</string>
-    <string name="fui_email_link_header">A fost trimis e-mailul de conectare\n</string>
-    <string name="fui_email_link_invalid_link_header">Conectarea nu poate fi finalizată</string>
-    <string name="fui_email_link_invalid_link_message">Codul de acțiune nu este valid. Se poate întâmpla în cazurile în care codul este incorect, expirat sau a fost folosit deja.</string>
-    <string name="fui_email_link_resend">Retrimiteți</string>
-    <string name="fui_email_link_trouble_getting_email_header">Nu primiți e-mailuri?</string>
-    <string name="fui_email_link_trouble_getting_email_resend_solution">Dacă pașii de mai sus nu funcționează, puteți să trimiteți din nou e-mailul. Rețineți că va fi dezactivat linkul din e-mailul anterior.</string>
-    <string name="fui_email_link_trouble_getting_possible_fixes">Încercați aceste soluții folosite frecvent:\n\u2022 verificați dacă e-mailul a fost marcat ca spam sau filtrat;\n\u2022 verificați conexiunea la internet;\n\u2022 verificați dacă ați scris corect adresa de e-mail;\n\u2022 verificați dacă aveți spațiu în căsuța de e-mail sau dacă există alte probleme legate de setările căsuței de e-mail.\n</string>
-    <string name="fui_email_link_wrong_device_header">A fost detectat un nou dispozitiv sau browser.</string>
-    <string name="fui_email_link_wrong_device_message">Încercați să accesați linkul folosind același dispozitiv sau browser pe care ați început procesul de conectare.</string>
-    <string name="fui_enter_confirmation_code">Introduceți codul din 6 cifre pe care l-am trimis la</string>
-    <string name="fui_error_email_does_not_exist">Adresa de e-mail nu corespunde unui cont existent</string>
-    <string name="fui_error_invalid_password">Parolă incorectă</string>
-    <string name="fui_error_quota_exceeded">A apărut o problemă la confirmarea numărului de telefon</string>
-    <string name="fui_error_session_expired">Codul nu mai este valid</string>
-    <string name="fui_error_too_many_attempts">Acest număr de telefon a fost folosit de prea multe ori</string>
-    <string name="fui_error_unknown">A apărut o eroare necunoscută.</string>
-    <string name="fui_idp_name_email">Adresă de e-mail</string>
-    <string name="fui_idp_name_facebook">Facebook</string>
-    <string name="fui_idp_name_github">GitHub</string>
-    <string name="fui_idp_name_google">Google</string>
-    <string name="fui_idp_name_phone">Număr de telefon</string>
-    <string name="fui_idp_name_twitter">Twitter</string>
-    <string name="fui_incorrect_code_dialog_body">Cod greșit. Încercați din nou.</string>
-    <string name="fui_invalid_email_address">Adresa de e-mail nu este corectă</string>
-    <string name="fui_invalid_phone_number">Introduceți un număr valid de telefon</string>
-    <string name="fui_missing_email_address">Introduceți adresa de e-mail pentru a continua</string>
-    <string name="fui_missing_first_and_last_name">Introduceți numele și prenumele.</string>
-    <string name="fui_name_hint">Prenume și nume de familie</string>
-    <string name="fui_next_default">Înainte</string>
-    <string name="fui_no_internet" translation_descripition="User message shown when sign-in is attempted while offline.">Eroare de rețea, verificați conexiunea la internet.</string>
-    <string name="fui_password_hint">Parolă</string>
-    <string name="fui_password_recovery_body">Primiți instrucțiuni de resetare a parolei la această adresă de e-mail.</string>
-    <string name="fui_phone_hint">Număr de telefon</string>
-    <string name="fui_privacy_policy">Politica de confidențialitate</string>
-    <string name="fui_progress_dialog_checking_accounts">Se caută conturi existente…</string>
-    <string name="fui_progress_dialog_loading">Se încarcă…</string>
-    <string name="fui_progress_dialog_sending">Se trimite…</string>
-    <string name="fui_progress_dialog_signing_in">Se conectează…</string>
-    <string name="fui_progress_dialog_signing_up">Se creează un cont…</string>
-    <string name="fui_required_field">Câmpul este obligatoriu.</string>
-    <string name="fui_resend_code">Retrimiteți codul</string>
-    <string name="fui_resend_code_in">Retrimiteți codul în 00:%02d</string>
-    <string name="fui_sign_in_anonymously">Continuați ca invitat</string>
-    <string name="fui_sign_in_default">Conectați-vă</string>
-    <string name="fui_sign_in_with_apple">Conectați-vă cu Apple</string>
-    <string name="fui_sign_in_with_email">Conectați-vă cu adresa de e-mail</string>
-    <string name="fui_sign_in_with_facebook">Conectați-vă cu Facebook</string>
-    <string name="fui_sign_in_with_github">Conectați-vă cu GitHub</string>
-    <string name="fui_sign_in_with_google">Conectați-vă cu Google</string>
-    <string name="fui_sign_in_with_microsoft">Conectați-vă cu Microsoft</string>
-    <string name="fui_sign_in_with_phone">Conectați-vă cu numărul de telefon</string>
-    <string name="fui_sign_in_with_phone_number">Conectați-vă cu numărul de telefon</string>
-    <string name="fui_sign_in_with_twitter">Conectați-vă cu Twitter</string>
-    <string name="fui_sign_in_with_yahoo">Conectați-vă cu Yahoo</string>
-    <string name="fui_sms_terms_of_service">Dacă atingeți „%1$s”, poate fi trimis un SMS. Se pot aplica tarife pentru mesaje și date.</string>
-    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">Dacă atingeți „%1$s”, sunteți de acord cu %2$s și cu %3$s. Poate fi trimis un SMS. Se pot aplica tarife pentru mesaje și date.</string>
-    <string name="fui_terms_of_service">Termeni și condițiile</string>
-    <string name="fui_title_confirm_recover_password">Verificați căsuța de e-mail</string>
-    <string name="fui_title_recover_password_activity">Recuperați parola</string>
-    <string name="fui_title_register_email">Înscrieți-vă</string>
-    <string name="fui_tos_and_pp">Dacă alegeți să continuați, sunteți de acord cu %1$s și cu %2$s.</string>
-    <string name="fui_tos_and_pp_footer">%1$s \u00A0 \u00A0 %2$s</string>
-    <string name="fui_trouble_signing_in">Nu reușiți să vă conectați?</string>
-    <string name="fui_verify_phone_number">Confirmați numărul de telefon</string>
-    <string name="fui_verify_phone_number_title">Introduceți numărul de telefon</string>
-    <string name="fui_verify_your_phone_title">Confirmați numărul de telefon</string>
-    <string name="fui_verifying">Se verifică…</string>
-    <string name="fui_welcome_back_email_header">Bine ați revenit!</string>
-    <string name="fui_welcome_back_email_link_header">Aveți deja un cont\n</string>
-    <string name="fui_welcome_back_email_link_prompt_body">Ați folosit deja %1$s. Vă puteți conecta contul %2$s la %1$s folosind linkul din e-mail, aflat mai jos.\n\nPentru ca acest flux să conecteze contul %2$s la această adresă de e-mail, trebuie să accesați linkul pe același dispozitiv sau browser.</string>
-    <string name="fui_welcome_back_idp_header">Aveți deja un cont</string>
-    <string name="fui_welcome_back_idp_prompt">Ați folosit deja %1$s. Pentru a continua, conectați-vă cu %2$s.</string>
-    <string name="fui_welcome_back_password_prompt_body">Ați folosit deja %1$s pentru a vă conecta. Introduceți parola acestui cont.</string>
-    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"Diverse"</string>
-    <string msgid="1685185767093348095" name="mr_button_content_description">"Butonul de proiecție"</string>
-    <string msgid="1350095112462806159" name="mr_cast_button_connected">"Butonul de proiecție. Conectat"</string>
-    <string msgid="8959304318293841992" name="mr_cast_button_connecting">"Butonul de proiecție. Se conectează"</string>
-    <string msgid="5501231066847739632" name="mr_cast_button_disconnected">"Butonul de proiecție. Deconectat"</string>
-    <string msgid="5504553798429329689" name="mr_chooser_searching">"Se caută dispozitive"</string>
-    <string msgid="7548226170787476564" name="mr_chooser_title">"Proiectați pe"</string>
-    <string msgid="5813284753012893250" name="mr_controller_album_art">"Grafica albumului"</string>
-    <string msgid="5286734709674025661" name="mr_controller_casting_screen">"Se proiectează ecranul"</string>
-    <string msgid="5468775621814500662" name="mr_controller_close_description">"Închideți"</string>
-    <string msgid="5518911192681928413" name="mr_controller_collapse_group">"Restrângeți"</string>
-    <string msgid="1370654436555555647" name="mr_controller_disconnect">"Deconectați"</string>
-    <string msgid="2422682304043876468" name="mr_controller_expand_group">"Extindeți"</string>
-    <string msgid="7299368841849988218" name="mr_controller_no_info_available">"Nu sunt disponibile informații"</string>
-    <string msgid="4342878516155861006" name="mr_controller_no_media_selected">"Niciun conținut media selectat"</string>
-    <string msgid="4701315813294065305" name="mr_controller_pause">"Întrerupeți"</string>
-    <string msgid="4443315438268112801" name="mr_controller_play">"Redați"</string>
-    <string msgid="5106056093749454009" name="mr_controller_stop">"Opriți"</string>
-    <string msgid="7617024847862349259" name="mr_controller_stop_casting">"Nu mai proiectați"</string>
-    <string msgid="691656961160498512" name="mr_controller_volume_slider">"Glisor pentru volum"</string>
-    <string msgid="3117964881088969586" name="mr_system_route_name">"Sistem"</string>
-    <string msgid="8236416097133080726" name="mr_user_route_category_name">"Dispozitive"</string>
-    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"Ștergeți căutarea"</string>
-    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"Căutați"</string>
-    <string msgid="368094699078615544" name="s1">"Salvați imaginea"</string>
-    <string msgid="4550830452390689489" name="s2">"Permiteți ca anunțul să stocheze imaginea în Galeria de fotografii?"</string>
-    <string msgid="2435407834265420668" name="s3">"Acceptați"</string>
-    <string msgid="9167523597401839819" name="s4">"Refuzați"</string>
-    <string msgid="1566682516266724847" name="s5">"Creați un eveniment în calendar"</string>
-    <string msgid="5996672174517137271" name="s6">"Permiteți ca anunțul să creeze un eveniment în calendar?"</string>
-    <string msgid="7163549807207034258" name="s7">"Anunț de probă"</string>
+    <string name="places_autocomplete_clear_button">Ștergeți căutarea</string>
+    <string name="places_autocomplete_label">Alegeți o locație</string>
+    <string name="places_autocomplete_no_results_for_query">Niciun rezultat pentru %1$s</string>
+    <string name="places_autocomplete_search_hint">Căutați</string>
+    <string name="places_cancel">Anulați</string>
+    <string name="places_powered_by_google">Un produs Google</string>
+    <string name="places_search_error">Nu se încarcă rezultatele căutării.</string>
+    <string name="places_try_again">Reîncercați</string>
     <string msgid="730395136688082741" name="search_menu_title">"Căutați"</string>
     <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
-    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"Cumpărați cu Google"</string>
 </resources>

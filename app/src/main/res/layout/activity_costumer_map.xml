@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.pool.uber.com.pool.weRide.CustomerLoginActivity">
+    tools:context="com.pool.weRide.CustomerMapActivity">
 
 
     <fragment
@@ -40,9 +40,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/settings"
                 android:text="Settings" />
+
         </LinearLayout>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_below="@+id/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,8 +53,8 @@
                 android:id="@+id/place_autocomplete_fragment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment" />
-        </android.support.v7.widget.CardView>
+                android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment" />
+        </androidx.cardview.widget.CardView>
     </RelativeLayout>
 
 
@@ -126,30 +127,23 @@
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="UberGO"
-                    android:id="@+id/Uber" />
+                    android:paddingRight="40dp"
+                    android:text="Uber GO"
+                    android:id="@+id/Uberr" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="GOPlus"
+                    android:paddingRight="40dp"
+                    android:text="GO Plus"
                     android:id="@+id/Goplus" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="UberX"
+                    android:text="Uber X"
                     android:id="@+id/UberX" />
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="UberBlack"
-                    android:id="@+id/UberBlack"/>
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="UberXl"
-                    android:id="@+id/UberXl"/>
+
             </RadioGroup>
 
             <Button

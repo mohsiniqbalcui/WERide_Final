@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <plurals name="fui_error_weak_password">
-        <item quantity="one">密碼安全強度不足。請使用至少 %1$d 個字元並混用字母和數字</item>
-        <item quantity="other">密碼安全強度不足。請使用至少 %1$d 個字元並混用字母和數字</item>
-    </plurals>
     <string msgid="7903180715631665059" name="abc_action_bar_home_description">"瀏覽首頁"</string>
     <string msgid="6794660482873516081" name="abc_action_bar_up_description">"向上瀏覽"</string>
     <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"更多選項"</string>
@@ -31,45 +27,6 @@
     <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"分享對象"</string>
     <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"與「<ns1:g id="APPLICATION_NAME">%s</ns1:g>」分享"</string>
     <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"收合"</string>
-    <string msgid="4778414446709286370" name="cast_ad_label">"廣告"</string>
-    <string msgid="366047012176970604" name="cast_casting_to_device">"正在投放到 %s"</string>
-    <string msgid="2888745622334830481" name="cast_closed_captions">"隱藏式輔助字幕"</string>
-    <string msgid="4476421850100851087" name="cast_closed_captions_unavailable">"無法使用隱藏式輔助字幕"</string>
-    <string msgid="6769392312239056170" name="cast_connecting_to_device">"正在連接至「<ns1:g id="NAME">%1$s</ns1:g>」"</string>
-    <string msgid="4431992200264667209" name="cast_disconnect">"中斷連線"</string>
-    <string msgid="5668979866539349222" name="cast_expanded_controller_ad_image_description">"Cast 接收器播放廣告時顯示的圖片"</string>
-    <string msgid="9069517964239146855" name="cast_expanded_controller_ad_in_progress">"廣告進行中…"</string>
-    <string msgid="8886260998635257149" name="cast_expanded_controller_background_image">"專輯封面"</string>
-    <string msgid="1316611227831672183" name="cast_expanded_controller_live_stream_indicator">"即時串流"</string>
-    <string msgid="7334411994450681286" name="cast_expanded_controller_loading">"載入中…"</string>
-    <string msgid="8399595886048969508" name="cast_expanded_controller_skip_ad_label">"略過"</string>
-    <string msgid="7884080323096468593" name="cast_forward">"快轉"</string>
-    <string msgid="6424889955881797947" name="cast_forward_10">"快轉 10 秒"</string>
-    <string msgid="7868672855975238403" name="cast_forward_30">"快轉 30 秒"</string>
-    <string msgid="6885943100773268783" name="cast_intro_overlay_button_text">"@android:string/ok"</string>
-    <string msgid="5637297909372905371" name="cast_mute">"靜音"</string>
-    <string msgid="5319032370587661362" name="cast_notification_connected_message">"已連線至「<ns1:g id="NAME">%1$s</ns1:g>」"</string>
-    <string msgid="2758865089947797888" name="cast_notification_connecting_message">"正在連線至「<ns1:g id="NAME">%1$s</ns1:g>」"</string>
-    <string msgid="2568179715202151240" name="cast_notification_default_channel_name">"Cast"</string>
-    <string msgid="5232008641593292969" name="cast_notification_disconnect">"中斷連線"</string>
-    <string msgid="5308503786390460607" name="cast_pause">"暫停"</string>
-    <string msgid="5906987965619702702" name="cast_play">"播放"</string>
-    <string msgid="1739665135565985480" name="cast_rewind">"倒轉"</string>
-    <string msgid="6432793028560778843" name="cast_rewind_10">"倒轉 10 秒"</string>
-    <string msgid="4677199707225681325" name="cast_rewind_30">"倒轉 30 秒"</string>
-    <string msgid="9078075166993780241" name="cast_seek_bar">"播放搜尋控制介面"</string>
-    <string msgid="3991548379225047363" name="cast_skip_next">"跳到下一個項目"</string>
-    <string msgid="8369073097776576935" name="cast_skip_prev">"跳到上一個項目"</string>
-    <string msgid="9191388946729723891" name="cast_stop">"停止"</string>
-    <string msgid="1219622777438777099" name="cast_stop_live_stream">"停止即時串流"</string>
-    <string msgid="4250321332248956563" name="cast_tracks_chooser_dialog_audio">"音訊"</string>
-    <string msgid="1162380934229249476" name="cast_tracks_chooser_dialog_cancel">"取消"</string>
-    <string msgid="1779359505126875127" name="cast_tracks_chooser_dialog_closed_captions">"隱藏式輔助字幕"</string>
-    <string msgid="3012268736704635952" name="cast_tracks_chooser_dialog_default_track_name">"第 <ns1:g id="POSITION">%1$d</ns1:g> 軌"</string>
-    <string msgid="1176688358580178396" name="cast_tracks_chooser_dialog_none">"無"</string>
-    <string msgid="3804878371876790270" name="cast_tracks_chooser_dialog_ok">"確定"</string>
-    <string msgid="2454147715032376208" name="cast_tracks_chooser_dialog_subtitles">"字幕"</string>
-    <string msgid="2913461521603516868" name="cast_unmute">"取消靜音"</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"啟用"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"您必須啟用 Google Play 服務，才能執行「<ns1:g id="APP_NAME">%1$s</ns1:g>」。"</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"啟用 Google Play 服務"</string>
@@ -89,128 +46,14 @@
     <string msgid="3441753203274453993" name="common_signin_button_text">"登入"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"使用 Google 帳戶登入"</string>
     <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"其他"</string>
-    <string name="fui_accessibility_logo">應用程式標誌</string>
-    <string name="fui_auto_verified">已自動驗證電話號碼</string>
-    <string name="fui_button_text_save">儲存</string>
-    <string name="fui_button_text_send">傳送</string>
-    <string name="fui_cancel">取消</string>
-    <string name="fui_confirm_recovery_body">請依照傳送至 %1$s 的操作說明，重新取得密碼。</string>
-    <string name="fui_continue">繼續</string>
-    <string name="fui_email_account_creation_error">電子郵件帳戶註冊失敗</string>
-    <string name="fui_email_hint">電子郵件</string>
-    <string name="fui_email_link_confirm_email_header">確認電子郵件地址</string>
-    <string name="fui_email_link_confirm_email_message">如要繼續登入，請確認電子郵件地址</string>
-    <string name="fui_email_link_cross_device_linking_text">您原先想將 %1$s 連結至您的電子郵件帳戶，卻在另一部未登入帳戶的裝置上開啟了連結。\n\n如果您仍想連結您的 %1$s 帳戶，請在開始登入程序的同一部裝置上開啟連結。如不想連結帳戶，請輕觸 [繼續] 以在這部裝置上進行登入程序。</string>
-    <string name="fui_email_link_cross_device_sign_in_button_text">透過 %1$s 登入</string>
-    <string name="fui_email_link_different_anonymous_user_header">工作階段已結束</string>
-    <string name="fui_email_link_different_anonymous_user_message">與這項登入要求相關的工作階段已過期或遭到清除。</string>
-    <string name="fui_email_link_dismiss_button">關閉</string>
-    <string name="fui_email_link_email_sent">系統已將內含額外操作說明的登入電子郵件傳送至 %1$s。請查看您的電子郵件以完成登入程序。</string>
-    <string name="fui_email_link_header">已送出登入電子郵件\n</string>
-    <string name="fui_email_link_invalid_link_header">無法完成登入程序</string>
-    <string name="fui_email_link_invalid_link_message">操作代碼無效。如果代碼已過期、已使用或格式不正確，就有可能發生這種情況。</string>
-    <string name="fui_email_link_resend">重新傳送</string>
-    <string name="fui_email_link_trouble_getting_email_header">沒收到電子郵件嗎？</string>
-    <string name="fui_email_link_trouble_getting_email_resend_solution">如果上述步驟全部無效，建議您重新傳送電子郵件。請注意，這個動作會使先前郵件中的連結失效。</string>
-    <string name="fui_email_link_trouble_getting_possible_fixes">請試試下列常用的解決方式：\n\u2022檢查該封電子郵件是否被標示為垃圾郵件或已遭系統篩除。\n\u2022檢查您的網際網路連線狀態。\n\u2022檢查電子郵件地址是否拼寫錯誤。\n\u2022確認收件匣的儲存空間是否足夠，或檢查其他與收件匣設定相關的問題。\n</string>
-    <string name="fui_email_link_wrong_device_header">偵測到新的裝置或瀏覽器。</string>
-    <string name="fui_email_link_wrong_device_message">請透過最初登入時使用的裝置或瀏覽器來開啟連結。</string>
-    <string name="fui_enter_confirmation_code">請輸入傳送至以下電話號碼的 6 位數驗證碼</string>
-    <string name="fui_error_email_does_not_exist">找不到與這個電子郵件地址相符的帳戶</string>
-    <string name="fui_error_invalid_password">密碼不正確。</string>
-    <string name="fui_error_quota_exceeded">驗證電話號碼時發生問題</string>
-    <string name="fui_error_session_expired">這個代碼已經失效</string>
-    <string name="fui_error_too_many_attempts">使用這個電話號碼的次數過多</string>
-    <string name="fui_error_unknown">發生不明錯誤。</string>
-    <string name="fui_idp_name_email">電子郵件</string>
-    <string name="fui_idp_name_facebook">Facebook</string>
-    <string name="fui_idp_name_github">GitHub</string>
-    <string name="fui_idp_name_google">Google</string>
-    <string name="fui_idp_name_phone">電話</string>
-    <string name="fui_idp_name_twitter">Twitter</string>
-    <string name="fui_incorrect_code_dialog_body">驗證碼錯誤，請再試一次。</string>
-    <string name="fui_invalid_email_address">電子郵件地址不正確</string>
-    <string name="fui_invalid_phone_number">請輸入有效的電話號碼</string>
-    <string name="fui_missing_email_address">如要繼續，請輸入您的電子郵件地址</string>
-    <string name="fui_missing_first_and_last_name">請輸入姓名。</string>
-    <string name="fui_name_hint">姓氏和名字</string>
-    <string name="fui_next_default">繼續</string>
-    <string name="fui_no_internet" translation_descripition="User message shown when sign-in is attempted while offline.">網路發生錯誤，請檢查您的網際網路連線。</string>
-    <string name="fui_password_hint">密碼</string>
-    <string name="fui_password_recovery_body">這個電子郵件會收到重設密碼的 操作說明。</string>
-    <string name="fui_phone_hint">電話號碼</string>
-    <string name="fui_privacy_policy">隱私權政策</string>
-    <string name="fui_progress_dialog_checking_accounts">正在檢查是否已有帳戶…</string>
-    <string name="fui_progress_dialog_loading">載入中…</string>
-    <string name="fui_progress_dialog_sending">傳送中…</string>
-    <string name="fui_progress_dialog_signing_in">登入中…</string>
-    <string name="fui_progress_dialog_signing_up">註冊中…</string>
-    <string name="fui_required_field">此欄位不可留空。</string>
-    <string name="fui_resend_code">重新傳送驗證碼</string>
-    <string name="fui_resend_code_in">0:%02d 秒後將重新發送驗證碼</string>
-    <string name="fui_sign_in_anonymously">繼續以訪客身分使用</string>
-    <string name="fui_sign_in_default">登入</string>
-    <string name="fui_sign_in_with_apple">使用 Apple 帳戶登入</string>
-    <string name="fui_sign_in_with_email">使用電子郵件地址登入</string>
-    <string name="fui_sign_in_with_facebook">使用 Facebook 帳戶登入</string>
-    <string name="fui_sign_in_with_github">使用 GitHub 登入</string>
-    <string name="fui_sign_in_with_google">使用 Google 帳戶登入</string>
-    <string name="fui_sign_in_with_microsoft">使用 Microsoft 帳戶登入</string>
-    <string name="fui_sign_in_with_phone">使用電話號碼登入</string>
-    <string name="fui_sign_in_with_phone_number">使用電話號碼登入</string>
-    <string name="fui_sign_in_with_twitter">使用 Twitter 帳戶登入</string>
-    <string name="fui_sign_in_with_yahoo">使用 Yahoo 帳戶登入</string>
-    <string name="fui_sms_terms_of_service">輕觸 [%1$s] 後，系統將會傳送一封簡訊。您可能需支付簡訊和數據傳輸費用。</string>
-    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">輕觸 [%1$s] 即表示您同意接受我們的《%2$s》和《%3$s》。系統將會傳送簡訊給您，不過您可能需要支付簡訊和數據傳輸費用。</string>
-    <string name="fui_terms_of_service">服務條款</string>
-    <string name="fui_title_confirm_recover_password">請查看您的電子郵件信箱</string>
-    <string name="fui_title_recover_password_activity">重新取得密碼</string>
-    <string name="fui_title_register_email">註冊</string>
-    <string name="fui_tos_and_pp">選擇繼續即表示您同意接受我們的《%1$s》和《%2$s》。</string>
-    <string name="fui_tos_and_pp_footer">%1$s \u00A0 \u00A0 %2$s</string>
-    <string name="fui_trouble_signing_in">無法登入嗎？</string>
-    <string name="fui_verify_phone_number">驗證電話號碼</string>
-    <string name="fui_verify_phone_number_title">請輸入您的電話號碼</string>
-    <string name="fui_verify_your_phone_title">驗證您的電話號碼</string>
-    <string name="fui_verifying">驗證中…</string>
-    <string name="fui_welcome_back_email_header">歡迎回來！</string>
-    <string name="fui_welcome_back_email_link_header">您已經有帳戶了\n</string>
-    <string name="fui_welcome_back_email_link_prompt_body">您已經使用過 %1$s。只要使用下方的電子郵件連結登入，即可將您的 %2$s 帳戶連結至 %1$s。\n\n如要順利將您的 %2$s 帳戶連結至這個電子郵件，請透過登入時使用的裝置或瀏覽器來開啟連結。</string>
-    <string name="fui_welcome_back_idp_header">您已經有帳戶</string>
-    <string name="fui_welcome_back_idp_prompt">目前您用於登入的帳戶是 %1$s。 如要繼續，請使用 %2$s 帳戶登入。</string>
-    <string name="fui_welcome_back_password_prompt_body">您已使用 %1$s 登入。請輸入這個帳戶的密碼。</string>
-    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"其他"</string>
-    <string msgid="1685185767093348095" name="mr_button_content_description">"投放按鈕"</string>
-    <string msgid="1350095112462806159" name="mr_cast_button_connected">"投放按鈕；已連線"</string>
-    <string msgid="8959304318293841992" name="mr_cast_button_connecting">"投放按鈕；連線中"</string>
-    <string msgid="5501231066847739632" name="mr_cast_button_disconnected">"投放按鈕；已中斷連線"</string>
-    <string msgid="5504553798429329689" name="mr_chooser_searching">"正在尋找裝置"</string>
-    <string msgid="7548226170787476564" name="mr_chooser_title">"投放到"</string>
-    <string msgid="5813284753012893250" name="mr_controller_album_art">"專輯封面"</string>
-    <string msgid="5286734709674025661" name="mr_controller_casting_screen">"正在投放畫面"</string>
-    <string msgid="5468775621814500662" name="mr_controller_close_description">"關閉"</string>
-    <string msgid="5518911192681928413" name="mr_controller_collapse_group">"收合"</string>
-    <string msgid="1370654436555555647" name="mr_controller_disconnect">"中斷連線"</string>
-    <string msgid="2422682304043876468" name="mr_controller_expand_group">"展開"</string>
-    <string msgid="7299368841849988218" name="mr_controller_no_info_available">"沒有可用的資訊"</string>
-    <string msgid="4342878516155861006" name="mr_controller_no_media_selected">"未選取任何媒體"</string>
-    <string msgid="4701315813294065305" name="mr_controller_pause">"暫停"</string>
-    <string msgid="4443315438268112801" name="mr_controller_play">"播放"</string>
-    <string msgid="5106056093749454009" name="mr_controller_stop">"停止"</string>
-    <string msgid="7617024847862349259" name="mr_controller_stop_casting">"停止投放"</string>
-    <string msgid="691656961160498512" name="mr_controller_volume_slider">"音量滑桿"</string>
-    <string msgid="3117964881088969586" name="mr_system_route_name">"系統"</string>
-    <string msgid="8236416097133080726" name="mr_user_route_category_name">"裝置"</string>
-    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"清除搜尋"</string>
-    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"搜尋"</string>
-    <string msgid="368094699078615544" name="s1">"儲存圖片"</string>
-    <string msgid="4550830452390689489" name="s2">"要允許廣告將圖片儲存在相片庫中嗎？"</string>
-    <string msgid="2435407834265420668" name="s3">"接受"</string>
-    <string msgid="9167523597401839819" name="s4">"拒絕"</string>
-    <string msgid="1566682516266724847" name="s5">"建立日曆活動"</string>
-    <string msgid="5996672174517137271" name="s6">"要允許廣告建立日曆活動嗎？"</string>
-    <string msgid="7163549807207034258" name="s7">"測試廣告"</string>
+    <string name="places_autocomplete_clear_button">清除搜尋</string>
+    <string name="places_autocomplete_label">挑選地點</string>
+    <string name="places_autocomplete_no_results_for_query">沒有與「%1$s」相符的搜尋結果</string>
+    <string name="places_autocomplete_search_hint">搜尋</string>
+    <string name="places_cancel">取消</string>
+    <string name="places_powered_by_google">Google 技術提供</string>
+    <string name="places_search_error">無法載入搜尋結果。</string>
+    <string name="places_try_again">再試一次</string>
     <string msgid="730395136688082741" name="search_menu_title">"搜尋"</string>
     <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
-    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"透過 Google 購物"</string>
 </resources>

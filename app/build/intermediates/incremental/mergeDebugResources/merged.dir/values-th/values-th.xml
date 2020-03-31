@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <plurals name="fui_error_weak_password">
-        <item quantity="one">รหัสผ่านไม่รัดกุมมากพอ ใช้อักขระอย่างน้อย %1$d ตัวและต้องเป็นตัวอักษรปนกับตัวเลข</item>
-        <item quantity="other">รหัสผ่านไม่รัดกุมมากพอ ใช้อักขระอย่างน้อย %1$d ตัวและต้องเป็นตัวอักษรปนกับตัวเลข</item>
-    </plurals>
     <string msgid="7903180715631665059" name="abc_action_bar_home_description">"นำทางไปหน้าแรก"</string>
     <string msgid="6794660482873516081" name="abc_action_bar_up_description">"กลับ"</string>
     <string msgid="1155814932213556626" name="abc_action_menu_overflow_description">"ตัวเลือกอื่น"</string>
@@ -31,45 +27,6 @@
     <string msgid="2650565705514630347" name="abc_shareactionprovider_share_with">"แชร์กับ"</string>
     <string msgid="9009661856846212431" name="abc_shareactionprovider_share_with_application">"แชร์ทาง <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="6389460216547290468" name="abc_toolbar_collapse_description">"ยุบ"</string>
-    <string msgid="4778414446709286370" name="cast_ad_label">"โฆษณา"</string>
-    <string msgid="366047012176970604" name="cast_casting_to_device">"กำลังแคสต์ไปยัง %1$s"</string>
-    <string msgid="2888745622334830481" name="cast_closed_captions">"คำอธิบายภาพ"</string>
-    <string msgid="4476421850100851087" name="cast_closed_captions_unavailable">"คำบรรยายไม่พร้อมใช้งาน"</string>
-    <string msgid="6769392312239056170" name="cast_connecting_to_device">"กำลังเชื่อมต่อ <ns1:g id="NAME">%1$s</ns1:g>"</string>
-    <string msgid="4431992200264667209" name="cast_disconnect">"ยกเลิกการเชื่อมต่อ"</string>
-    <string msgid="5668979866539349222" name="cast_expanded_controller_ad_image_description">"ภาพที่แสดงขณะที่เครื่องรับการแคสต์กำลังเล่นโฆษณา"</string>
-    <string msgid="9069517964239146855" name="cast_expanded_controller_ad_in_progress">"โฆษณาอยู่ระหว่างดำเนินการ..."</string>
-    <string msgid="8886260998635257149" name="cast_expanded_controller_background_image">"ปกอัลบั้ม"</string>
-    <string msgid="1316611227831672183" name="cast_expanded_controller_live_stream_indicator">"การสตรีมแบบสด"</string>
-    <string msgid="7334411994450681286" name="cast_expanded_controller_loading">"กำลังโหลด…"</string>
-    <string msgid="8399595886048969508" name="cast_expanded_controller_skip_ad_label">"ข้าม"</string>
-    <string msgid="7884080323096468593" name="cast_forward">"กรอไปข้างหน้า"</string>
-    <string msgid="6424889955881797947" name="cast_forward_10">"กรอไปข้างหน้า 10 วินาที"</string>
-    <string msgid="7868672855975238403" name="cast_forward_30">"กรอไปข้างหน้า 30 วินาที"</string>
-    <string msgid="6885943100773268783" name="cast_intro_overlay_button_text">"@android:string/ok"</string>
-    <string msgid="5637297909372905371" name="cast_mute">"ปิดเสียง"</string>
-    <string msgid="5319032370587661362" name="cast_notification_connected_message">"เชื่อมต่อ <ns1:g id="NAME">%1$s</ns1:g> แล้ว"</string>
-    <string msgid="2758865089947797888" name="cast_notification_connecting_message">"กำลังเชื่อมต่อ <ns1:g id="NAME">%1$s</ns1:g>"</string>
-    <string msgid="2568179715202151240" name="cast_notification_default_channel_name">"แคสต์"</string>
-    <string msgid="5232008641593292969" name="cast_notification_disconnect">"ยกเลิกการเชื่อมต่อ"</string>
-    <string msgid="5308503786390460607" name="cast_pause">"หยุดชั่วคราว"</string>
-    <string msgid="5906987965619702702" name="cast_play">"เล่น"</string>
-    <string msgid="1739665135565985480" name="cast_rewind">"กรอกลับ"</string>
-    <string msgid="6432793028560778843" name="cast_rewind_10">"กรอกลับ 10 วินาที"</string>
-    <string msgid="4677199707225681325" name="cast_rewind_30">"กรอกลับ 30 วินาที"</string>
-    <string msgid="9078075166993780241" name="cast_seek_bar">"ตัวควบคุมการค้นหาในการเล่น"</string>
-    <string msgid="3991548379225047363" name="cast_skip_next">"ข้ามไปยังรายการถัดไป"</string>
-    <string msgid="8369073097776576935" name="cast_skip_prev">"ข้ามไปยังรายการก่อนหน้า"</string>
-    <string msgid="9191388946729723891" name="cast_stop">"หยุด"</string>
-    <string msgid="1219622777438777099" name="cast_stop_live_stream">"หยุดการสตรีมแบบสด"</string>
-    <string msgid="4250321332248956563" name="cast_tracks_chooser_dialog_audio">"เสียง"</string>
-    <string msgid="1162380934229249476" name="cast_tracks_chooser_dialog_cancel">"ยกเลิก"</string>
-    <string msgid="1779359505126875127" name="cast_tracks_chooser_dialog_closed_captions">"คำอธิบายภาพ"</string>
-    <string msgid="3012268736704635952" name="cast_tracks_chooser_dialog_default_track_name">"ติดตาม <ns1:g id="POSITION">%1$d</ns1:g>"</string>
-    <string msgid="1176688358580178396" name="cast_tracks_chooser_dialog_none">"ไม่มี"</string>
-    <string msgid="3804878371876790270" name="cast_tracks_chooser_dialog_ok">"ตกลง"</string>
-    <string msgid="2454147715032376208" name="cast_tracks_chooser_dialog_subtitles">"คำบรรยาย"</string>
-    <string msgid="2913461521603516868" name="cast_unmute">"เปิดเสียง"</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"เปิดใช้"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> จะไม่ทำงานจนกว่าคุณจะเปิดใช้บริการ Google Play"</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"เปิดใช้บริการ Google Play"</string>
@@ -89,128 +46,14 @@
     <string msgid="3441753203274453993" name="common_signin_button_text">"ลงชื่อเข้าใช้"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"ลงชื่อเข้าใช้ด้วย Google"</string>
     <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"เบ็ดเตล็ด"</string>
-    <string name="fui_accessibility_logo">โลโก้แอป</string>
-    <string name="fui_auto_verified">ยืนยันหมายเลขโทรศัพท์โดยอัตโนมัติแล้ว</string>
-    <string name="fui_button_text_save">บันทึก</string>
-    <string name="fui_button_text_send">ส่ง</string>
-    <string name="fui_cancel">ยกเลิก</string>
-    <string name="fui_confirm_recovery_body">ทำตามวิธีการที่ส่งไปยัง %1$s เพื่อกู้คืนรหัสผ่านของคุณ</string>
-    <string name="fui_continue">ต่อไป</string>
-    <string name="fui_email_account_creation_error">การลงทะเบียนบัญชีอีเมลไม่สำเร็จ</string>
-    <string name="fui_email_hint">อีเมล</string>
-    <string name="fui_email_link_confirm_email_header">ยืนยันอีเมล</string>
-    <string name="fui_email_link_confirm_email_message">ยืนยันอีเมลเพื่อลงชื่อเข้าใช้ต่อ</string>
-    <string name="fui_email_link_cross_device_linking_text">แต่เดิมคุณตั้งใจที่จะเชื่อม %1$s เข้ากับบัญชีอีเมลแต่ได้เปิดลิงก์บนอุปกรณ์อื่นที่ไม่ได้ลงชื่อเข้าใช้\n\nหากยังต้องการเชื่อมบัญชี %1$s ให้เปิดลิงก์บนอุปกรณ์เดียวกันกับที่เริ่มลงชื่อเข้าใช้ หรือแตะ \"ต่อไป\" เพื่อลงชื่อเข้าใช้บนอุปกรณ์นี้</string>
-    <string name="fui_email_link_cross_device_sign_in_button_text">ลงชื่อเข้าใช้ด้วย %1$s</string>
-    <string name="fui_email_link_different_anonymous_user_header">สิ้นสุดเซสชันแล้ว</string>
-    <string name="fui_email_link_different_anonymous_user_message">เซสชันที่เชื่อมโยงกับคำขอลงชื่อเข้าใช้นี้หมดอายุหรือถูกล้างไปแล้ว</string>
-    <string name="fui_email_link_dismiss_button">ปิด</string>
-    <string name="fui_email_link_email_sent">ระบบได้ส่งอีเมลลงชื่อเข้าใช้พร้อมวิธีการเพิ่มเติมไปยัง %1$s แล้ว โปรดตรวจสอบอีเมลเพื่อลงชื่อเข้าใช้</string>
-    <string name="fui_email_link_header">ส่งอีเมลลงชื่อเข้าใช้แล้ว\n</string>
-    <string name="fui_email_link_invalid_link_header">ลงชื่อเข้าใช้ไม่สำเร็จ</string>
-    <string name="fui_email_link_invalid_link_message">รหัสการทำงานไม่ถูกต้อง เหตุการณ์นี้อาจเกิดขึ้นหากรหัสผิดรูปแบบ หมดอายุแล้ว หรือมีการใช้งานอยู่แล้ว</string>
-    <string name="fui_email_link_resend">ส่งซ้ำ</string>
-    <string name="fui_email_link_trouble_getting_email_header">มีปัญหาในการรับอีเมลใช่ไหม</string>
-    <string name="fui_email_link_trouble_getting_email_resend_solution">คุณอาจส่งอีเมลอีกครั้งได้ หากขั้นตอนข้างต้นไม่ช่วยแก้ไขปัญหา โปรดทราบว่าการกระทำดังกล่าวจะเป็นการปิดใช้งานลิงก์ในอีเมลเก่า</string>
-    <string name="fui_email_link_trouble_getting_possible_fixes">ลองใช้วิธีแก้ไขทั่วไปเหล่านี้:\n\u2022 ตรวจสอบว่าอีเมลดังกล่าวมีการทำเครื่องหมายว่าเป็นสแปมหรือผ่านการกรอง\n\u2022 ตรวจสอบการเชื่อมต่ออินเทอร์เน็ต\n\u2022 ตรวจสอบว่าสะกดชื่ออีเมลถูกต้องแล้ว\n\u2022 ตรวจสอบว่ายังมีพื้นที่เหลือในกล่องจดหมายหรือไม่มีปัญหาอื่นๆ ที่เกี่ยวกับการตั้งค่ากล่องจดหมาย\n</string>
-    <string name="fui_email_link_wrong_device_header">พบการใช้อุปกรณ์หรือเบราว์เซอร์ใหม่</string>
-    <string name="fui_email_link_wrong_device_message">ลองเปิดลิงก์โดยใช้อุปกรณ์หรือเบราว์เซอร์เดียวกันกับที่คุณใช้ในขั้นตอนการลงชื่อเข้าใช้</string>
-    <string name="fui_enter_confirmation_code">ป้อนรหัส 6 หลักที่เราส่งไปยัง</string>
-    <string name="fui_error_email_does_not_exist">ที่อยู่อีเมลไม่ตรงกับบัญชีที่มีอยู่</string>
-    <string name="fui_error_invalid_password">รหัสผ่านไม่ถูกต้อง</string>
-    <string name="fui_error_quota_exceeded">เกิดปัญหาในการยืนยันหมายเลขโทรศัพท์ของคุณ</string>
-    <string name="fui_error_session_expired">ไม่สามารถใช้รหัสนี้ได้อีกต่อไป</string>
-    <string name="fui_error_too_many_attempts">มีการใช้หมายเลขโทรศัพท์นี้หลายครั้งเกินไป</string>
-    <string name="fui_error_unknown">เกิดข้อผิดพลาดที่ไม่รู้จัก</string>
-    <string name="fui_idp_name_email">อีเมล</string>
-    <string name="fui_idp_name_facebook">Facebook</string>
-    <string name="fui_idp_name_github">GitHub</string>
-    <string name="fui_idp_name_google">Google</string>
-    <string name="fui_idp_name_phone">โทรศัพท์</string>
-    <string name="fui_idp_name_twitter">Twitter</string>
-    <string name="fui_incorrect_code_dialog_body">รหัสไม่ถูกต้อง โปรดลองอีกครั้ง</string>
-    <string name="fui_invalid_email_address">ที่อยู่อีเมลนี้ไม่ถูกต้อง</string>
-    <string name="fui_invalid_phone_number">ป้อนหมายเลขโทรศัพท์ที่ถูกต้อง</string>
-    <string name="fui_missing_email_address">ป้อนที่อยู่อีเมลของคุณเพื่อดำเนินการต่อ</string>
-    <string name="fui_missing_first_and_last_name">โปรดป้อนชื่อและนามสกุล</string>
-    <string name="fui_name_hint">ชื่อและนามสกุล</string>
-    <string name="fui_next_default">ถัดไป</string>
-    <string name="fui_no_internet" translation_descripition="User message shown when sign-in is attempted while offline.">เกิดข้อผิดพลาดของเครือข่าย โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ต</string>
-    <string name="fui_password_hint">รหัสผ่าน</string>
-    <string name="fui_password_recovery_body">ดูวิธีการที่ส่งไปยังอีเมลนี้ซึ่งอธิบายเกี่ยวกับวิธีรีเซ็ตรหัสผ่านของคุณ</string>
-    <string name="fui_phone_hint">หมายเลขโทรศัพท์</string>
-    <string name="fui_privacy_policy">นโยบายความเป็นส่วนตัว</string>
-    <string name="fui_progress_dialog_checking_accounts">กำลังตรวจสอบบัญชีที่มีอยู่…</string>
-    <string name="fui_progress_dialog_loading">กำลังโหลด…</string>
-    <string name="fui_progress_dialog_sending">กำลังส่ง…</string>
-    <string name="fui_progress_dialog_signing_in">กำลังลงชื่อเข้าใช้…</string>
-    <string name="fui_progress_dialog_signing_up">กำลังลงชื่อสมัครใช้…</string>
-    <string name="fui_required_field">ต้องป้อนข้อมูลในช่องนี้</string>
-    <string name="fui_resend_code">ส่งรหัสอีกครั้ง</string>
-    <string name="fui_resend_code_in">ส่งรหัสอีกครั้งใน 0:%02d</string>
-    <string name="fui_sign_in_anonymously">ดำเนินการต่อในฐานะผู้เข้าร่วม</string>
-    <string name="fui_sign_in_default">ลงชื่อเข้าใช้</string>
-    <string name="fui_sign_in_with_apple">ลงชื่อเข้าใช้ด้วย Apple</string>
-    <string name="fui_sign_in_with_email">ลงชื่อเข้าใช้ด้วยอีเมล</string>
-    <string name="fui_sign_in_with_facebook">ลงชื่อเข้าใช้ด้วย Facebook</string>
-    <string name="fui_sign_in_with_github">ลงชื่อเข้าใช้ด้วย GitHub</string>
-    <string name="fui_sign_in_with_google">ลงชื่อเข้าใช้ด้วย Google</string>
-    <string name="fui_sign_in_with_microsoft">ลงชื่อเข้าใช้ด้วย Microsoft</string>
-    <string name="fui_sign_in_with_phone">ลงชื่อเข้าใช้ด้วยโทรศัพท์</string>
-    <string name="fui_sign_in_with_phone_number">ลงชื่อเข้าใช้ด้วยหมายเลขโทรศัพท์</string>
-    <string name="fui_sign_in_with_twitter">ลงชื่อเข้าใช้ด้วย Twitter</string>
-    <string name="fui_sign_in_with_yahoo">ลงชื่อเข้าใช้ด้วย Yahoo</string>
-    <string name="fui_sms_terms_of_service">เมื่อคุณแตะ “%1$s” ระบบจะส่ง SMS ให้คุณ อาจมีค่าบริการรับส่งข้อความและค่าบริการอินเทอร์เน็ต</string>
-    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">การแตะ “%1$s” แสดงว่าคุณยอมรับ %2$s และ %3$s ระบบจะส่ง SMS ให้คุณ อาจมีค่าบริการรับส่งข้อความและค่าบริการอินเทอร์เน็ต</string>
-    <string name="fui_terms_of_service">ข้อกำหนดในการให้บริการ</string>
-    <string name="fui_title_confirm_recover_password">ตรวจสอบอีเมลของคุณ</string>
-    <string name="fui_title_recover_password_activity">กู้คืนรหัสผ่าน</string>
-    <string name="fui_title_register_email">ลงชื่อสมัครใช้</string>
-    <string name="fui_tos_and_pp">การดำเนินการต่อแสดงว่าคุณยอมรับ %1$s และ %2$s</string>
-    <string name="fui_tos_and_pp_footer">%1$s \u00A0 \u00A0 %2$s</string>
-    <string name="fui_trouble_signing_in">หากพบปัญหาในการลงชื่อเช้าใช้</string>
-    <string name="fui_verify_phone_number">ยืนยันหมายเลขโทรศัพท์</string>
-    <string name="fui_verify_phone_number_title">ป้อนหมายเลขโทรศัพท์ของคุณ</string>
-    <string name="fui_verify_your_phone_title">ยืนยันหมายเลขโทรศัพท์</string>
-    <string name="fui_verifying">กำลังยืนยัน…</string>
-    <string name="fui_welcome_back_email_header">ยินดีต้อนรับอีกครั้ง!</string>
-    <string name="fui_welcome_back_email_link_header">คุณมีบัญชีแล้ว\n</string>
-    <string name="fui_welcome_back_email_link_prompt_body">คุณใช้ %1$s แล้ว คุณจะเชื่อมต่อบัญชี %2$s กับ %1$s ได้โดยลงชื่อเข้าใช้ด้วยลิงก์อีเมลด้านล่าง\n\nหากต้องการเชื่อมต่อบัญชี %2$s กับอีเมลนี้ให้สำเร็จ คุณต้องเปิดลิงก์บนอุปกรณ์หรือเบราว์เซอร์เดียวกัน</string>
-    <string name="fui_welcome_back_idp_header">คุณมีบัญชีอยู่แล้ว</string>
-    <string name="fui_welcome_back_idp_prompt">คุณใช้ %1$s อยู่แล้ว ลงชื่อเข้าใช้ด้วย %2$s เพื่อดำเนินการต่อ</string>
-    <string name="fui_welcome_back_password_prompt_body">คุณใช้ %1$s ในการลงชื่อเข้าใช้อยู่แล้ว โปรดป้อนรหัสผ่านสำหรับบัญชีดังกล่าว</string>
-    <string msgid="9521340570209730" name="gcm_fallback_notification_channel_label">"เบ็ดเตล็ด"</string>
-    <string msgid="1685185767093348095" name="mr_button_content_description">"ปุ่ม \"แคสต์\""</string>
-    <string msgid="1350095112462806159" name="mr_cast_button_connected">"ปุ่ม \"แคสต์\" เชื่อมต่อแล้ว"</string>
-    <string msgid="8959304318293841992" name="mr_cast_button_connecting">"ปุ่ม \"แคสต์\" กำลังเชื่อมต่อ"</string>
-    <string msgid="5501231066847739632" name="mr_cast_button_disconnected">"ปุ่ม \"แคสต์\" ยกเลิกการเชื่อมต่อแล้ว"</string>
-    <string msgid="5504553798429329689" name="mr_chooser_searching">"กำลังค้นหาอุปกรณ์"</string>
-    <string msgid="7548226170787476564" name="mr_chooser_title">"แคสต์ไปยัง"</string>
-    <string msgid="5813284753012893250" name="mr_controller_album_art">"ปกอัลบั้ม"</string>
-    <string msgid="5286734709674025661" name="mr_controller_casting_screen">"กำลังแคสต์หน้าจอ"</string>
-    <string msgid="5468775621814500662" name="mr_controller_close_description">"ปิด"</string>
-    <string msgid="5518911192681928413" name="mr_controller_collapse_group">"ยุบ"</string>
-    <string msgid="1370654436555555647" name="mr_controller_disconnect">"ยกเลิกการเชื่อมต่อ"</string>
-    <string msgid="2422682304043876468" name="mr_controller_expand_group">"ขยาย"</string>
-    <string msgid="7299368841849988218" name="mr_controller_no_info_available">"ไม่มีข้อมูล"</string>
-    <string msgid="4342878516155861006" name="mr_controller_no_media_selected">"ไม่ได้เลือกสื่อไว้"</string>
-    <string msgid="4701315813294065305" name="mr_controller_pause">"หยุดชั่วคราว"</string>
-    <string msgid="4443315438268112801" name="mr_controller_play">"เปิด"</string>
-    <string msgid="5106056093749454009" name="mr_controller_stop">"หยุด"</string>
-    <string msgid="7617024847862349259" name="mr_controller_stop_casting">"หยุดแคสต์"</string>
-    <string msgid="691656961160498512" name="mr_controller_volume_slider">"แถบเลื่อนปรับระดับเสียง"</string>
-    <string msgid="3117964881088969586" name="mr_system_route_name">"ระบบ"</string>
-    <string msgid="8236416097133080726" name="mr_user_route_category_name">"อุปกรณ์"</string>
-    <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"ล้างการค้นหา"</string>
-    <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"ค้นหา"</string>
-    <string msgid="368094699078615544" name="s1">"บันทึกรูปภาพ"</string>
-    <string msgid="4550830452390689489" name="s2">"อนุญาตให้โฆษณาจัดเก็บรูปภาพในแกลเลอรีภาพไหม"</string>
-    <string msgid="2435407834265420668" name="s3">"ยอมรับ"</string>
-    <string msgid="9167523597401839819" name="s4">"ปฏิเสธ"</string>
-    <string msgid="1566682516266724847" name="s5">"สร้างกิจกรรมในปฏิทิน"</string>
-    <string msgid="5996672174517137271" name="s6">"อนุญาตให้โฆษณาสร้างกิจกรรมในปฏิทินไหม"</string>
-    <string msgid="7163549807207034258" name="s7">"โฆษณาทดสอบ"</string>
+    <string name="places_autocomplete_clear_button">ล้างการค้นหา</string>
+    <string name="places_autocomplete_label">เลือกสถานที่</string>
+    <string name="places_autocomplete_no_results_for_query">ไม่พบผลลัพธ์สำหรับ %1$s</string>
+    <string name="places_autocomplete_search_hint">ค้นหา</string>
+    <string name="places_cancel">ยกเลิก</string>
+    <string name="places_powered_by_google">ขับเคลื่อนโดย Google</string>
+    <string name="places_search_error">โหลดผลการค้นหาไม่ได้</string>
+    <string name="places_try_again">ลองอีกครั้ง</string>
     <string msgid="730395136688082741" name="search_menu_title">"ค้นหา"</string>
     <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
-    <string msgid="363496807345461806" name="wallet_buy_button_place_holder">"ซื้อด้วย Google"</string>
 </resources>

@@ -7,8 +7,8 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.pool.weRide.HistorySingleActivity;
 import com.pool.uber.R;
+import com.pool.weRide.HistorySingleActivity;
 
 
 public class HistoryViewHolders extends RecyclerView.ViewHolder implements View.OnClickListener{
@@ -19,13 +19,12 @@ public class HistoryViewHolders extends RecyclerView.ViewHolder implements View.
 	public HistoryViewHolders(View itemView) {
         super(itemView);
         itemView.setOnClickListener(this);
-
-        rideId = (TextView) itemView.findViewById(R.id.rideId);
-        time = (TextView) itemView.findViewById(R.id.time);
+		
+		rideId = itemView.findViewById(R.id.rideId);
+		time = itemView.findViewById(R.id.time);
     }
-
-
-    @Override
+	
+	@Override
     public void onClick(View v) {
         Intent intent = new Intent(v.getContext(), HistorySingleActivity.class);
         Bundle b = new Bundle();

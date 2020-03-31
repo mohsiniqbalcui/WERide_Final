@@ -45,6 +45,15 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"ଫୋନ୍‌ରେ ଖୋଲନ୍ତୁ"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"ସାଇନ୍‌-ଇନ୍ କରନ୍ତୁ"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google ସହ ସାଇନ୍‌-ଇନ୍ କରନ୍ତୁ"</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"ଅନ୍ୟାନ୍ୟ"</string>
+    <string name="places_autocomplete_clear_button">ସର୍ଚ୍ଚ ଖାଲି କରନ୍ତୁ</string>
+    <string name="places_autocomplete_label">ଗୋଟିଏ ସ୍ଥାନ ବାଛନ୍ତୁ</string>
+    <string name="places_autocomplete_no_results_for_query">%1$s ପାଇଁ କୌଣସି ଫଳାଫଳ ନାହିଁ</string>
+    <string name="places_autocomplete_search_hint">ସର୍ଚ୍ଚ କରନ୍ତୁ</string>
+    <string name="places_cancel">ବାତିଲ୍ କରନ୍ତୁ</string>
+    <string name="places_powered_by_google">Google ଦ୍ଵାରା ପରିଚାଳିତ</string>
+    <string name="places_search_error">ସନ୍ଧାନ ଫଳାଫଳଗୁଡ଼ିକ ଲୋଡ୍‌ କରିହେଉନାହିଁ</string>
+    <string name="places_try_again">ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ</string>
     <string msgid="730395136688082741" name="search_menu_title">"ସର୍ଚ୍ଚ କରନ୍ତୁ"</string>
     <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

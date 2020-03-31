@@ -8,6 +8,7 @@ import android.location.Location;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Looper;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -34,9 +35,7 @@ import com.google.android.gms.location.LocationCallback;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationResult;
 import com.google.android.gms.location.LocationServices;
-import com.google.android.gms.location.places.Place;
-import com.google.android.gms.location.places.ui.PlaceAutocompleteFragment;
-import com.google.android.gms.location.places.ui.PlaceSelectionListener;
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -44,6 +43,9 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.libraries.places.api.model.Place;
+import com.google.android.libraries.places.widget.AutocompleteSupportFragment;
+import com.google.android.libraries.places.widget.listener.PlaceSelectionListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -53,9 +55,15 @@ import com.google.firebase.database.ValueEventListener;
 import com.pool.uber.R;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+/*import com.google.android.gms.location.places.Place;
+import com.google.android.libraries.places.api.Places;
+import com.google.android.gms.location.places.ui.PlaceSelectionListener;*/
+
 
 
 public class CustomerMapActivity extends FragmentActivity implements OnMapReadyCallback {
@@ -102,30 +110,30 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
         mapFragment.getMapAsync(this);
 
         destinationLatLng = new LatLng(0.0,0.0);
-
-        mDriverInfo = (LinearLayout) findViewById(R.id.driverInfo);
-
-        mDriverProfileImage = (ImageView) findViewById(R.id.driverProfileImage);
-
-        mDriverName = (TextView) findViewById(R.id.driverName);
-        mDriverPhone = (TextView) findViewById(R.id.driverPhone);
-        mDriverCar = (TextView) findViewById(R.id.driverCar);
-
-        mRatingBar = (RatingBar) findViewById(R.id.ratingBar);
-
-        mRadioGroup = (RadioGroup) findViewById(R.id.radioGroup);
+	
+		mDriverInfo = findViewById(R.id.driverInfo);
+	
+		mDriverProfileImage = findViewById(R.id.driverProfileImage);
+	
+		mDriverName = findViewById(R.id.driverName);
+		mDriverPhone = findViewById(R.id.driverPhone);
+		mDriverCar = findViewById(R.id.driverCar);
+	
+		mRatingBar = findViewById(R.id.ratingBar);
+	
+		mRadioGroup = findViewById(R.id.radioGroup);
         mRadioGroup.check(R.id.UberX);
-
-        mLogout = (Button) findViewById(R.id.logout);
-		mRequest = (Button) findViewById(R.id.calluber);
-        mSettings = (Button) findViewById(R.id.settings);
-        mHistory = (Button) findViewById(R.id.history);
+	
+		mLogout = findViewById(R.id.logout);
+		mRequest = findViewById(R.id.calluber);
+		mSettings = findViewById(R.id.settings);
+		mHistory = findViewById(R.id.history);
 
         mLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FirebaseAuth.getInstance().signOut();
-                Intent intent = new Intent(CustomerMapActivity.this, MainActivity.class);
+				Intent intent = new Intent(CustomerMapActivity.this, userType.class);
                 startActivity(intent);
                 finish();
                 return;
@@ -141,7 +149,7 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
 		
 				}else{
                     int selectId = mRadioGroup.getCheckedRadioButtonId();
-                    final RadioButton radioButton = (RadioButton) findViewById(selectId);
+					final RadioButton radioButton = findViewById(selectId);
 
                     if (radioButton.getText() == null){
                         return;
@@ -188,22 +196,46 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
                 return;
             }
         });
+	
+	
+		// Initialize the AutocompleteSupportFragment.
+		AutocompleteSupportFragment autocompleteFragment = (AutocompleteSupportFragment)
+				getSupportFragmentManager().findFragmentById(R.id.place_autocomplete_fragment);
 
-        PlaceAutocompleteFragment autocompleteFragment = (PlaceAutocompleteFragment)
-                getFragmentManager().findFragmentById(R.id.place_autocomplete_fragment);
+// Specify the types of place data to return.
+		autocompleteFragment.setPlaceFields(Arrays.asList(Place.Field.ID, Place.Field.NAME));
 
+// Set up a PlaceSelectionListener to handle the response.
         autocompleteFragment.setOnPlaceSelectedListener(new PlaceSelectionListener() {
             @Override
             public void onPlaceSelected(Place place) {
                 // TODO: Get info about the selected place.
-                destination = place.getName().toString();
+				destination = place.getName();
                 destinationLatLng = place.getLatLng();
+            }
+	
+			@Override
+            public void onError(Status status) {
+                // TODO: Handle the error.
+				Log.i("customer", "onError: ");
+                
+            }
+        });
+//
+//        PlaceAutocompleteFragment autocompleteFragment = (PlaceAutocompleteFragment)
+//                getFragmentManager().findFragmentById(R.id.);
+/*
+        autocompleteFragment.setOnPlaceSelectedListener(new PlaceSelectionListener() {
+            @Override
+            public void onPlaceSelected(Place place) {
+                // TODO: Get info about the selected place.
+              
             }
             @Override
             public void onError(Status status) {
                 // TODO: Handle the error.
             }
-        });
+        });*/
 
 
     }
@@ -285,6 +317,7 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
             }
         });
     }
+    
     /*-------------------------------------------- Map specific functions -----
     |  Function(s) getDriverLocation
     |
@@ -298,12 +331,15 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
     |      1 -> Longitudde
     |
     *-------------------------------------------------------------------*/
-    private Marker mDriverMarker;
+	
+	private Marker mDriverMarker;
     private DatabaseReference driverLocationRef;
     private ValueEventListener driverLocationRefListener;
 	
 	private void getDriverLocation(){
-        driverLocationRef = FirebaseDatabase.getInstance().getReference().child("driversWorking").child(driverFoundID).child("l");
+		
+		driverLocationRef = FirebaseDatabase.getInstance().getReference()
+				.child("driversWorking").child(driverFoundID).child("l");
         driverLocationRefListener = driverLocationRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
@@ -334,7 +370,7 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
                     if (distance<100){
                         mRequest.setText("Driver's Here");
                     }else{
-                        mRequest.setText("Driver Found: " + String.valueOf(distance));
+						mRequest.setText("Driver Found: " + distance);
                     }
 	
 	
@@ -359,7 +395,8 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
     |  Note: --
     |
     *-------------------------------------------------------------------*/
-    private void getDriverInfo(){
+	
+	private void getDriverInfo() {
         mDriverInfo.setVisibility(View.VISIBLE);
         DatabaseReference mCustomerDatabase = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(driverFoundID);
         mCustomerDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -461,7 +498,6 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
     |
     |  Note:
     |	   The update interval is set to 1000Ms and the accuracy is set to PRIORITY_HIGH_ACCURACY,
-    |      If you're having trouble with battery draining too fast then change these to lower values
     |
     |
     *-------------------------------------------------------------------*/
@@ -496,9 +532,10 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
                     mLastLocation = location;
 
                     LatLng latLng = new LatLng(location.getLatitude(),location.getLongitude());
-
-                    //mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-                    //mMap.animateCamera(CameraUpdateFactory.zoomTo(11));
+	
+					mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+	
+					mMap.animateCamera(CameraUpdateFactory.zoomTo(11));
                     if(!getDriversAroundStarted)
                         getDriversAround();
                 }
@@ -516,9 +553,13 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
     |                request has it's own unique request code.
     |
     *-------------------------------------------------------------------*/
-
+	/*
+	 * deal with with all permission related features dont see this
+	 *
+	 * */
     private void checkLocationPermission() {
-        if(ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED){
+		if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) !=
+				PackageManager.PERMISSION_GRANTED) {
             if (ActivityCompat.shouldShowRequestPermissionRationale(this, android.Manifest.permission.ACCESS_FINE_LOCATION)) {
                 new android.app.AlertDialog.Builder(this)
                         .setTitle("give permission")
@@ -555,9 +596,25 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
             }
         }
     }
-
-
-
+	
+	/*
+	 ** deal with with all permission related features dont see this
+	 *
+	 *
+	 *                   upper part only for permision
+	 * */
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*deal with all types of users that are around the specfic region or areea */
 
     boolean getDriversAroundStarted = false;
     List<Marker> markers = new ArrayList<Marker>();
@@ -566,8 +623,10 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
         DatabaseReference driverLocation = FirebaseDatabase.getInstance().getReference().child("driversAvailable");
 
         GeoFire geoFire = new GeoFire(driverLocation);
-        GeoQuery geoQuery = geoFire.queryAtLocation(new GeoLocation(mLastLocation.getLongitude(), mLastLocation.getLatitude()), 999999999);
-
+		/*geo firease store the driver location*/
+		GeoQuery geoQuery = geoFire.queryAtLocation(new GeoLocation(mLastLocation.getLongitude(), mLastLocation.getLatitude()),
+				999999999);
+//geoquery uses firebase quesry to get data fromt eh
         geoQuery.addGeoQueryEventListener(new GeoQueryEventListener() {
             @Override
             public void onKeyEntered(String key, GeoLocation location) {
@@ -578,8 +637,9 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
                 }
 
                 LatLng driverLocation = new LatLng(location.latitude, location.longitude);
-
-                Marker mDriverMarker = mMap.addMarker(new MarkerOptions().position(driverLocation).title(key).icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_car)));
+	
+				Marker mDriverMarker = mMap.addMarker(new MarkerOptions()
+						.position(driverLocation).title(key).icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_car)));
                 mDriverMarker.setTag(key);
 
                 markers.add(mDriverMarker);
@@ -611,7 +671,7 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
 
             @Override
             public void onGeoQueryError(DatabaseError error) {
-
+				Toast.makeText(CustomerMapActivity.this, "problem in geo query", Toast.LENGTH_SHORT).show();
             }
         });
     }

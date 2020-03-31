@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">465004012634-0401f7esgg8c5qfc2kn4kapr9gdtpufe.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://car-booking-322ff.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">465004012634</string>
-    <string name="google_api_key" translatable="false">AIzaSyAyEwM5nzwhOEmtBh8yY-ayLnEFOos6WxQ</string>
-    <string name="google_app_id" translatable="false">1:465004012634:android:2ac8c7eb10297239</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAyEwM5nzwhOEmtBh8yY-ayLnEFOos6WxQ</string>
-    <string name="google_storage_bucket" translatable="false">car-booking-322ff.appspot.com</string>
-    <string name="project_id" translatable="false">car-booking-322ff</string>
+    <string name="default_web_client_id" translatable="false">409721861020-a9oidt1fnv5923i0bqcu6rp2tt91d54l.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://weride-android-8d032.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">409721861020</string>
+    <string name="google_api_key" translatable="false">AIzaSyBLi6QjUaPSOLggT-BsdxCW6UEMnh28uWs</string>
+    <string name="google_app_id" translatable="false">1:409721861020:android:da23f4b27a68d601eb4e59</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBLi6QjUaPSOLggT-BsdxCW6UEMnh28uWs</string>
+    <string name="google_storage_bucket" translatable="false">weride-android-8d032.appspot.com</string>
+    <string name="project_id" translatable="false">weride-android-8d032</string>
 </resources>

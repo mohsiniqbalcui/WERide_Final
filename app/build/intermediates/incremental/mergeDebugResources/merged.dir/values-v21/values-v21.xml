@@ -310,8 +310,6 @@
     <item name="android:textSize">14sp</item>
     <item name="android:letterSpacing">0.00714285714</item>
   </style>
-    <style name="Theme.AppInvite.Preview.Base" parent="@android:style/Theme.Material.Light.DialogWhenLarge.NoActionBar">
-</style>
     <style name="Widget.Compat.NotificationActionContainer" parent="">
         <item name="android:background">@drawable/notification_action_background</item>
     </style>

@@ -82,8 +82,9 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
     private LinearLayout mCustomerInfo; //
     private ImageView mCustomerProfileImage;
     private TextView mCustomerName, mCustomerPhone, mCustomerDestination;
-
-    @Override
+	
+	
+	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_driver_map);
@@ -94,18 +95,17 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
 
         mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-
-
-
-        mCustomerInfo = (LinearLayout) findViewById(R.id.customerInfo);
-
-        mCustomerProfileImage = (ImageView) findViewById(R.id.customerProfileImage);
-
-        mCustomerName = (TextView) findViewById(R.id.customerName);
-        mCustomerPhone = (TextView) findViewById(R.id.customerPhone);
-        mCustomerDestination = (TextView) findViewById(R.id.customerDestination);
-
-        mWorkingSwitch = (Switch) findViewById(R.id.workingSwitch);
+		
+		
+		mCustomerInfo = findViewById(R.id.customerInfo);
+		
+		mCustomerProfileImage = findViewById(R.id.customerProfileImage);
+		
+		mCustomerName = findViewById(R.id.customerName);
+		mCustomerPhone = findViewById(R.id.customerPhone);
+		mCustomerDestination = findViewById(R.id.customerDestination);
+		
+		mWorkingSwitch = findViewById(R.id.workingSwitch);
         mWorkingSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -116,11 +116,11 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
                 }
             }
         });
-
-        mSettings = (Button) findViewById(R.id.settings);
-        mLogout = (Button) findViewById(R.id.logout);
-        mRideStatus = (Button) findViewById(R.id.rideStatus);
-        mHistory = (Button) findViewById(R.id.history);
+		
+		mSettings = findViewById(R.id.settings);
+		mLogout = findViewById(R.id.logout);
+		mRideStatus = findViewById(R.id.rideStatus);
+		mHistory = findViewById(R.id.history);
         mRideStatus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -150,7 +150,7 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
                 disconnectDriver();
 
                 FirebaseAuth.getInstance().signOut();
-                Intent intent = new Intent(DriverMapActivity.this, MainActivity.class);
+				Intent intent = new Intent(DriverMapActivity.this, userType.class);
                 startActivity(intent);
                 finish();
                 return;
@@ -178,8 +178,9 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
     
         getAssignedCustomer();
     }
-
-    private void getAssignedCustomer(){
+	
+	
+	private void getAssignedCustomer() {
         String driverId = FirebaseAuth.getInstance().getCurrentUser().getUid();
         DatabaseReference assignedCustomerRef = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(driverId).child("customerRequest").child("customerRideId");
         assignedCustomerRef.addValueEventListener(new ValueEventListener() {
@@ -420,9 +421,14 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
             }
         }
     };
-
+	
+	/*this will check the user ppermission is is alredy grandted or not */
+    
     private void checkLocationPermission() {
         if(ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED){
+			/*if user first time deny the permesion to location  application */
+			/*this is request for bakwasi people to give more dose about permission*/
+            
             if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.ACCESS_FINE_LOCATION)) {
                 new AlertDialog.Builder(this)
                         .setTitle("give permission")
@@ -430,6 +436,9 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
                         .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
+								/*request code to ensure either the user give the permission or not*/
+								/*if user granted the permmin by custome dialog...  user request code 1 will be sended */
+								/*user not give the permmsion by custome dialog toast will be pop up*/
                                 ActivityCompat.requestPermissions(DriverMapActivity.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
                             }
                         })
@@ -441,7 +450,9 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
             }
         }
     }
-
+	
+	/*this methos only be callled after checkloation persmission as call back and verfify eidir the user granted the location or not if he is
+	 * but user nit give the acess all of these effots Toast message will dispay */
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);

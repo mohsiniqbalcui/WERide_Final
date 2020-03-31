@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "465004012634",
-    "firebase_url": "https://car-booking-322ff.firebaseio.com",
-    "project_id": "car-booking-322ff",
-    "storage_bucket": "car-booking-322ff.appspot.com"
+    "project_number": "409721861020",
+    "firebase_url": "https://weride-android-8d032.firebaseio.com",
+    "project_id": "weride-android-8d032",
+    "storage_bucket": "weride-android-8d032.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:465004012634:android:2ac8c7eb10297239",
+        "mobilesdk_app_id": "1:409721861020:android:da23f4b27a68d601eb4e59",
         "android_client_info": {
           "package_name": "com.pool.uber"
         }
       },
       "oauth_client": [
         {
-          "client_id": "465004012634-dcphj3g29uh8r3c179b779g3vshh3pgf.apps.googleusercontent.com",
+          "client_id": "409721861020-ibd5g00se3fn258oivbq403r8q1vqfht.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.pool.uber",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "465004012634-0401f7esgg8c5qfc2kn4kapr9gdtpufe.apps.googleusercontent.com",
+          "client_id": "409721861020-a9oidt1fnv5923i0bqcu6rp2tt91d54l.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAyEwM5nzwhOEmtBh8yY-ayLnEFOos6WxQ"
+          "current_key": "AIzaSyBLi6QjUaPSOLggT-BsdxCW6UEMnh28uWs"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "465004012634-0401f7esgg8c5qfc2kn4kapr9gdtpufe.apps.googleusercontent.com",
+              "client_id": "409721861020-a9oidt1fnv5923i0bqcu6rp2tt91d54l.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
