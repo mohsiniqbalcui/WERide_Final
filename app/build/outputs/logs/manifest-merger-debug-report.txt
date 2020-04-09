@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-67:12
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-68:12
 MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9a33614f93896133057c6cd14428631d\jetified-firebase-core-16.0.4\AndroidManifest.xml:2:1-9:12
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fefbce138d575f30d2616273fac39a28\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:2:1-109:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\c662b144194d394f3de424ac5e2c813c\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -98,69 +98,119 @@ MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\hp\.gradle\caches\tr
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\ce3187c49077feccc121ffb4f8f8ad7f\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [io.card:android-sdk:5.5.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\603aac5b6d2910d284c416cee26d36de\jetified-android-sdk-5.5.1\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\68e0925401c1a605acc1760f37a480e3\jetified-play-services-measurement-base-16.0.3\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-67:12
+INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-68:12
 	package
 		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:3:5-30
 		INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-67:12
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-68:12
 		INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-67:12
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:1-68:12
 		INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:9:5-79
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:5:5-79
 MERGED from [com.google.android.libraries.places:places:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\1da7728ec596e913f94101cc4f43f45b\jetified-places-2.0.0\AndroidManifest.xml:9:5-79
 MERGED from [com.google.android.libraries.places:places:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\1da7728ec596e913f94101cc4f43f45b\jetified-places-2.0.0\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fefbce138d575f30d2616273fac39a28\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:13:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fefbce138d575f30d2616273fac39a28\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:13:5-67
+MERGED from [com.firebase:geofire-android:3.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\ccbe55fd386a76f95f187b5ebd08b2f7\jetified-geofire-android-3.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.firebase:geofire-android:3.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\ccbe55fd386a76f95f187b5ebd08b2f7\jetified-geofire-android-3.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9109a3aad202c1c4ac52d046cecc1fca\jetified-firebase-database-19.0.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9109a3aad202c1c4ac52d046cecc1fca\jetified-firebase-database-19.0.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d3869a1c12d101b2fa128bff855c73bd\jetified-firebase-storage-19.0.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d3869a1c12d101b2fa128bff855c73bd\jetified-firebase-storage-19.0.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\87eeadf7a849fd20d3abe7ffafbd8f81\jetified-firebase-inappmessaging-19.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\87eeadf7a849fd20d3abe7ffafbd8f81\jetified-firebase-inappmessaging-19.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.libraries.places:places:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\1da7728ec596e913f94101cc4f43f45b\jetified-places-2.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.libraries.places:places:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\1da7728ec596e913f94101cc4f43f45b\jetified-places-2.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f387c60ae3ef9b66f7b9323376b87131\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f387c60ae3ef9b66f7b9323376b87131\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\803d5a241c55be707764344cf26c64f1\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:10:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\803d5a241c55be707764344cf26c64f1\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fa31725d568906c0759b6cd813345ca7\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fa31725d568906c0759b6cd813345ca7\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\2a592645bc59aabe422612eec57e9ffb\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\2a592645bc59aabe422612eec57e9ffb\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9fda6a63d928b579f240ab5a07d6dd9c\jetified-firebase-analytics-impl-16.2.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9fda6a63d928b579f240ab5a07d6dd9c\jetified-firebase-analytics-impl-16.2.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\cea50f3dafe7445daafdcf2bbaee08d7\jetified-firebase-iid-19.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\cea50f3dafe7445daafdcf2bbaee08d7\jetified-firebase-iid-19.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d1e94f61b4e33877b2615b8f78d3511b\jetified-transport-backend-cct-2.0.2\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d1e94f61b4e33877b2615b8f78d3511b\jetified-transport-backend-cct-2.0.2\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:9:5-95
+MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fefbce138d575f30d2616273fac39a28\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:12:5-79
+MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fefbce138d575f30d2616273fac39a28\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9109a3aad202c1c4ac52d046cecc1fca\jetified-firebase-database-19.0.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9109a3aad202c1c4ac52d046cecc1fca\jetified-firebase-database-19.0.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d3869a1c12d101b2fa128bff855c73bd\jetified-firebase-storage-19.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d3869a1c12d101b2fa128bff855c73bd\jetified-firebase-storage-19.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\87eeadf7a849fd20d3abe7ffafbd8f81\jetified-firebase-inappmessaging-19.0.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-inappmessaging:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\87eeadf7a849fd20d3abe7ffafbd8f81\jetified-firebase-inappmessaging-19.0.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f387c60ae3ef9b66f7b9323376b87131\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f387c60ae3ef9b66f7b9323376b87131\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-nearby:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f93fe284ad0a1b9ff65dbe4f4ac54f84\jetified-play-services-nearby-17.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-nearby:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f93fe284ad0a1b9ff65dbe4f4ac54f84\jetified-play-services-nearby-17.0.0\AndroidManifest.xml:7:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\803d5a241c55be707764344cf26c64f1\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:9:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\803d5a241c55be707764344cf26c64f1\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fa31725d568906c0759b6cd813345ca7\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fa31725d568906c0759b6cd813345ca7\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\2a592645bc59aabe422612eec57e9ffb\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\2a592645bc59aabe422612eec57e9ffb\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9fda6a63d928b579f240ab5a07d6dd9c\jetified-firebase-analytics-impl-16.2.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9fda6a63d928b579f240ab5a07d6dd9c\jetified-firebase-analytics-impl-16.2.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\cea50f3dafe7445daafdcf2bbaee08d7\jetified-firebase-iid-19.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\cea50f3dafe7445daafdcf2bbaee08d7\jetified-firebase-iid-19.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d1e94f61b4e33877b2615b8f78d3511b\jetified-transport-backend-cct-2.0.2\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d1e94f61b4e33877b2615b8f78d3511b\jetified-transport-backend-cct-2.0.2\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\51b2f259219d9981c0accb7f58311298\jetified-transport-runtime-2.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\51b2f259219d9981c0accb7f58311298\jetified-transport-runtime-2.0.0\AndroidManifest.xml:22:5-79
 	android:name
 		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:9:22-76
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:10:5-81
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:10:5-92
+MERGED from [com.google.android.libraries.places:places:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\1da7728ec596e913f94101cc4f43f45b\jetified-places-2.0.0\AndroidManifest.xml:10:5-76
+MERGED from [com.google.android.libraries.places:places:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\1da7728ec596e913f94101cc4f43f45b\jetified-places-2.0.0\AndroidManifest.xml:10:5-76
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:10:22-78
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:11:5-67
-MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fefbce138d575f30d2616273fac39a28\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:13:5-67
-MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fefbce138d575f30d2616273fac39a28\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:13:5-67
-MERGED from [com.firebase:geofire-android:3.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\ccbe55fd386a76f95f187b5ebd08b2f7\jetified-geofire-android-3.0.0\AndroidManifest.xml:11:5-67
-MERGED from [com.firebase:geofire-android:3.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\ccbe55fd386a76f95f187b5ebd08b2f7\jetified-geofire-android-3.0.0\AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9109a3aad202c1c4ac52d046cecc1fca\jetified-firebase-database-19.0.0\AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9109a3aad202c1c4ac52d046cecc1fca\jetified-firebase-database-19.0.0\AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d3869a1c12d101b2fa128bff855c73bd\jetified-firebase-storage-19.0.0\AndroidManifest.xml:27:5-67
-MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d3869a1c12d101b2fa128bff855c73bd\jetified-firebase-storage-19.0.0\AndroidManifest.xml:27:5-67
-MERGED from [com.google.firebase:firebase-inappmessaging:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\87eeadf7a849fd20d3abe7ffafbd8f81\jetified-firebase-inappmessaging-19.0.0\AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-inappmessaging:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\87eeadf7a849fd20d3abe7ffafbd8f81\jetified-firebase-inappmessaging-19.0.0\AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.libraries.places:places:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\1da7728ec596e913f94101cc4f43f45b\jetified-places-2.0.0\AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.libraries.places:places:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\1da7728ec596e913f94101cc4f43f45b\jetified-places-2.0.0\AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f387c60ae3ef9b66f7b9323376b87131\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f387c60ae3ef9b66f7b9323376b87131\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
-MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\803d5a241c55be707764344cf26c64f1\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:10:5-67
-MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\803d5a241c55be707764344cf26c64f1\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:10:5-67
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fa31725d568906c0759b6cd813345ca7\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fa31725d568906c0759b6cd813345ca7\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\2a592645bc59aabe422612eec57e9ffb\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\2a592645bc59aabe422612eec57e9ffb\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9fda6a63d928b579f240ab5a07d6dd9c\jetified-firebase-analytics-impl-16.2.2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9fda6a63d928b579f240ab5a07d6dd9c\jetified-firebase-analytics-impl-16.2.2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\cea50f3dafe7445daafdcf2bbaee08d7\jetified-firebase-iid-19.0.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\cea50f3dafe7445daafdcf2bbaee08d7\jetified-firebase-iid-19.0.0\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d1e94f61b4e33877b2615b8f78d3511b\jetified-transport-backend-cct-2.0.2\AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d1e94f61b4e33877b2615b8f78d3511b\jetified-transport-backend-cct-2.0.2\AndroidManifest.xml:26:5-67
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:10:22-73
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:11:5-105
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:11:22-64
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:12:5-80
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:11:22-86
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:12:5-81
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\603aac5b6d2910d284c416cee26d36de\jetified-android-sdk-5.5.1\AndroidManifest.xml:9:5-65
+MERGED from [io.card:android-sdk:5.5.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\603aac5b6d2910d284c416cee26d36de\jetified-android-sdk-5.5.1\AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:12:22-77
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:12:22-62
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:13:5-85
+	android:name
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:13:22-66
 application
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:14:5-65:19
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:15:5-66:19
 MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9a33614f93896133057c6cd14428631d\jetified-firebase-core-16.0.4\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.4] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9a33614f93896133057c6cd14428631d\jetified-firebase-core-16.0.4\AndroidManifest.xml:7:5-20
 MERGED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fefbce138d575f30d2616273fac39a28\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:15:5-107:19
@@ -262,87 +312,87 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.3] C:\Us
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\32f4f944aca9213f676acf60269714d3\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:17:9-42
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:18:9-42
 	android:roundIcon
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:18:9-62
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:19:9-62
 	android:icon
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:16:9-51
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:17:9-51
 	android:allowBackup
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:20:9-40
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:21:9-40
 activity#com.pool.Weride.drawer_layout
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:22:9-66
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:23:9-66
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:22:19-63
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:23:19-63
 activity#com.pool.Weride.splash
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:23:9-29:20
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:23:19-56
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:24:19-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:25:13-28:29
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:26:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.pool.Weride.signin_activity
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:31:9-68
-	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:31:19-65
-activity#com.pool.Weride.signup_activity
 ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:32:9-68
 	android:name
 		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:32:19-65
+activity#com.pool.Weride.signup_activity
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:33:9-68
+	android:name
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:33:19-65
 activity#com.pool.Weride.userType
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:33:9-61
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:34:9-61
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:33:19-58
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:34:19-58
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:43:9-45:55
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:44:9-46:55
 	android:value
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:45:13-52
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:46:13-52
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:44:13-58
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:45:13-58
 activity#com.pool.Weride.DriverMapActivity
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:47:9-49:65
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:48:9-50:65
 	android:label
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:49:13-62
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:50:13-62
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:48:13-61
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:49:13-61
 activity#com.pool.Weride.verifyPhoneActivity
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:51:9-72
-	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:51:19-69
-activity#com.pool.Weride.PhoneNumberActivity
 ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:52:9-72
 	android:name
 		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:52:19-69
+activity#com.pool.Weride.PhoneNumberActivity
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:53:9-72
+	android:name
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:53:19-69
 activity#com.pool.Weride.CustomerMapActivity
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:54:9-72
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:55:9-72
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:54:19-69
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:55:19-69
 activity#com.pool.Weride.CustomerSettingsActivity
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:55:9-77
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:56:9-77
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:55:19-74
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:56:19-74
 activity#com.pool.Weride.DriverSettingsActivity
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:56:9-75
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:57:9-75
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:56:19-72
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:57:19-72
 activity#com.pool.Weride.HistoryActivity
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:57:9-68
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:58:9-68
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:57:19-65
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:58:19-65
 activity#com.pool.Weride.HistorySingleActivity
-ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:58:9-74
+ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:59:9-74
 	android:name
-		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:58:19-71
+		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml:59:19-71
 uses-sdk
 INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml
@@ -545,34 +595,6 @@ INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\s
 		INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\hp\Documents\EGDownloads\Compressed\1 WeRide\WERide\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fefbce138d575f30d2616273fac39a28\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:12:5-79
-MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9109a3aad202c1c4ac52d046cecc1fca\jetified-firebase-database-19.0.0\AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-database:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9109a3aad202c1c4ac52d046cecc1fca\jetified-firebase-database-19.0.0\AndroidManifest.xml:25:5-79
-MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d3869a1c12d101b2fa128bff855c73bd\jetified-firebase-storage-19.0.0\AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-storage:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d3869a1c12d101b2fa128bff855c73bd\jetified-firebase-storage-19.0.0\AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-inappmessaging:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\87eeadf7a849fd20d3abe7ffafbd8f81\jetified-firebase-inappmessaging-19.0.0\AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-inappmessaging:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\87eeadf7a849fd20d3abe7ffafbd8f81\jetified-firebase-inappmessaging-19.0.0\AndroidManifest.xml:10:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f387c60ae3ef9b66f7b9323376b87131\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f387c60ae3ef9b66f7b9323376b87131\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-nearby:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f93fe284ad0a1b9ff65dbe4f4ac54f84\jetified-play-services-nearby-17.0.0\AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.gms:play-services-nearby:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\f93fe284ad0a1b9ff65dbe4f4ac54f84\jetified-play-services-nearby-17.0.0\AndroidManifest.xml:7:5-79
-MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\803d5a241c55be707764344cf26c64f1\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:9:5-79
-MERGED from [com.paypal.sdk:paypal-android-sdk:2.16.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\803d5a241c55be707764344cf26c64f1\jetified-paypal-android-sdk-2.16.0\AndroidManifest.xml:9:5-79
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fa31725d568906c0759b6cd813345ca7\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fa31725d568906c0759b6cd813345ca7\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\2a592645bc59aabe422612eec57e9ffb\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\2a592645bc59aabe422612eec57e9ffb\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9fda6a63d928b579f240ab5a07d6dd9c\jetified-firebase-analytics-impl-16.2.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\9fda6a63d928b579f240ab5a07d6dd9c\jetified-firebase-analytics-impl-16.2.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\cea50f3dafe7445daafdcf2bbaee08d7\jetified-firebase-iid-19.0.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\cea50f3dafe7445daafdcf2bbaee08d7\jetified-firebase-iid-19.0.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d1e94f61b4e33877b2615b8f78d3511b\jetified-transport-backend-cct-2.0.2\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.0.2] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\d1e94f61b4e33877b2615b8f78d3511b\jetified-transport-backend-cct-2.0.2\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\51b2f259219d9981c0accb7f58311298\jetified-transport-runtime-2.0.0\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\51b2f259219d9981c0accb7f58311298\jetified-transport-runtime-2.0.0\AndroidManifest.xml:22:5-79
-	android:name
-		ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fefbce138d575f30d2616273fac39a28\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:12:22-76
 meta-data#com.google.android.gms.version
 ADDED from [com.firebaseui:firebase-ui-auth:6.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\fefbce138d575f30d2616273fac39a28\jetified-firebase-ui-auth-6.2.0\AndroidManifest.xml:16:9-18:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6b9a3f54b7aeaa05beab7d746c4b9e08\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
@@ -833,10 +855,6 @@ ADDED from [com.google.firebase:firebase-inappmessaging:19.0.0] C:\Users\hp\.gra
 		ADDED from [com.google.firebase:firebase-inappmessaging:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\87eeadf7a849fd20d3abe7ffafbd8f81\jetified-firebase-inappmessaging-19.0.0\AndroidManifest.xml:19:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-inappmessaging:19.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\87eeadf7a849fd20d3abe7ffafbd8f81\jetified-firebase-inappmessaging-19.0.0\AndroidManifest.xml:18:17-129
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.google.android.libraries.places:places:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\1da7728ec596e913f94101cc4f43f45b\jetified-places-2.0.0\AndroidManifest.xml:10:5-76
-	android:name
-		ADDED from [com.google.android.libraries.places:places:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\1da7728ec596e913f94101cc4f43f45b\jetified-places-2.0.0\AndroidManifest.xml:10:22-73
 activity#com.google.android.libraries.places.widget.AutocompleteActivity
 ADDED from [com.google.android.libraries.places:places:2.0.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\1da7728ec596e913f94101cc4f43f45b\jetified-places-2.0.0\AndroidManifest.xml:16:9-23:20
 	android:label
@@ -1089,10 +1107,6 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\hp\.gradle\cach
 		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\54faf38f3592998c9975ae6150dc7399\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\54faf38f3592998c9975ae6150dc7399\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
-uses-permission#android.permission.CAMERA
-ADDED from [io.card:android-sdk:5.5.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\603aac5b6d2910d284c416cee26d36de\jetified-android-sdk-5.5.1\AndroidManifest.xml:9:5-65
-	android:name
-		ADDED from [io.card:android-sdk:5.5.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\603aac5b6d2910d284c416cee26d36de\jetified-android-sdk-5.5.1\AndroidManifest.xml:9:22-62
 uses-permission#android.permission.VIBRATE
 ADDED from [io.card:android-sdk:5.5.1] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\603aac5b6d2910d284c416cee26d36de\jetified-android-sdk-5.5.1\AndroidManifest.xml:10:5-66
 	android:name
