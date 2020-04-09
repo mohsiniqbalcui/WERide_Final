@@ -2,11 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.pool.weRide.CustomerMapActivity">
+    tools:context="com.pool.Weride.CustomerMapActivity">
 
 
     <fragment
-        android:id="@+id/map"
+        android:id="@+id/map1"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
@@ -24,21 +24,21 @@
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/logout"
+                android:id="@+id/logout1"
                 android:text="logout" />
 
             <Button
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/history"
+                android:id="@+id/history1"
                 android:text="history" />
 
             <Button
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/settings"
+                android:id="@+id/settings1"
                 android:text="Settings" />
 
         </LinearLayout>
@@ -56,7 +56,6 @@
                 android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment" />
         </androidx.cardview.widget.CardView>
     </RelativeLayout>
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -106,7 +105,7 @@
                 <RatingBar
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/ratingBar"
+                    android:id="@+id/ratingBar1"
                     android:layout_gravity="center"
                     android:numStars="5"
                     android:stepSize="0.1"/>
@@ -121,28 +120,26 @@
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/radioGroup"
+                android:id="@+id/radioGroup1"
+                android:layout_marginRight="20dp"
                 android:orientation="horizontal">
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingRight="40dp"
-                    android:text="Uber GO"
+                    android:text="Rick Shaw Ride"
+                    android:layout_marginRight="20dp"
+                    android:drawableLeft="@mipmap/ic_launcher_car_round"
                     android:id="@+id/Uberr" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingRight="40dp"
-                    android:text="GO Plus"
+                    android:text="Car Ride"
+                    android:layout_marginLeft="10dp"
+                    android:drawableLeft="@mipmap/ic_launcher_car_round"
                     android:id="@+id/Goplus" />
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Uber X"
-                    android:id="@+id/UberX" />
 
             </RadioGroup>
 
@@ -150,12 +147,10 @@
                 android:layout_gravity="bottom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="call Uber"
-                android:id="@+id/calluber" />
+                android:text="call driver"
+                android:id="@+id/callride" />
         </LinearLayout>
     </LinearLayout>
-
-
 
 </FrameLayout>
 

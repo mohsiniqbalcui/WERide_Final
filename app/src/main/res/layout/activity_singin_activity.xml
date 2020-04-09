@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:paddingLeft="50dp"
     android:paddingRight="50dp"
-    tools:context="com.pool.weRide.signin_activity">
+    tools:context="com.pool.Weride.signin_activity">
 
     <TextView
         android:layout_width="307dp"
@@ -20,7 +20,6 @@
         android:textColor="@color/icons"
         android:textSize="40sp"
         android:textStyle="bold">
-
     </TextView>
 
 
@@ -31,7 +30,7 @@
         android:layout_margin="5dp"
         android:background="@drawable/textviewrounded"
         android:hint="Email"
-        android:inputType="textPersonName"
+        android:inputType="textEmailAddress"
         android:padding="10dp" />
 
     <EditText
@@ -39,6 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:maxLength="6"
         android:background="@drawable/textviewrounded"
         android:hint="@string/password"
         android:inputType="textPassword"
@@ -89,6 +89,7 @@
         android:id="@+id/progressBar"
         android:layout_width="20dp"
         android:layout_height="20dp"
+        style="?android:attr/progressBarStyleLarge"
         android:layout_gravity="center|bottom"
         android:layout_marginBottom="20dp"
         android:visibility="invisible" />

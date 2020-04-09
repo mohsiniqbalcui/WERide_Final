@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pool.uber">
+    package="com.pool.Weride">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -13,39 +13,24 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher_car"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_car_round"
+        android:icon="@mipmap/ic_launcher_weridet"
+        android:label="@string/app_names"
+        android:roundIcon="@mipmap/ic_launcher_weridet_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.pool.weRide.drawer_layout" />
+        <activity android:name="com.pool.Weride.drawer_layout" />
+        <activity android:name="com.pool.Weride.splash">
 
-        <activity android:name="com.pool.weRide.splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
-                <!-- just random code to remce the manigest waring and can be used taht browser link open in your app instead of browser -->
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
-                <data
-                    android:host="www.google.com"
-                    android:pathPrefix="/gizmos"
-                    android:scheme="http" />
-                <!-- note that the leading "/" is required for pathPrefix -->
-                <!-- Accepts URIs that begin with "example://gizmos” -->
-                <data
-                    android:host="gizmos"
-                    android:scheme="example" />
             </intent-filter>
         </activity>
 
-        <activity android:name="com.pool.weRide.signin_activity" />
-        <activity android:name="com.pool.weRide.signup_activity" />
-        <activity android:name="com.pool.weRide.userType" />
+        <activity android:name="com.pool.Weride.signin_activity" />
+        <activity android:name="com.pool.Weride.signup_activity" />
+        <activity android:name="com.pool.Weride.userType" />
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -60,17 +45,17 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="com.pool.weRide.DriverMapActivity"
+            android:name="com.pool.Weride.DriverMapActivity"
             android:label="@string/title_activity_driver_map" />
 
-        <activity android:name="com.pool.weRide.verifyPhoneActivity" />
-        <activity android:name="com.pool.weRide.PhoneNumberActivity" />
+        <activity android:name="com.pool.Weride.verifyPhoneActivity" />
+        <activity android:name="com.pool.Weride.PhoneNumberActivity" />
 
-        <activity android:name="com.pool.weRide.CustomerMapActivity" />
-        <activity android:name="com.pool.weRide.CustomerSettingsActivity" />
-        <activity android:name="com.pool.weRide.DriverSettingsActivity" />
-        <activity android:name="com.pool.weRide.HistoryActivity" />
-        <activity android:name="com.pool.weRide.HistorySingleActivity" />
+        <activity android:name="com.pool.Weride.CustomerMapActivity" />
+        <activity android:name="com.pool.Weride.CustomerSettingsActivity" />
+        <activity android:name="com.pool.Weride.DriverSettingsActivity" />
+        <activity android:name="com.pool.Weride.HistoryActivity" />
+        <activity android:name="com.pool.Weride.HistorySingleActivity" />
 
         <!--this line is tell app will can run in app background-->
         <!--

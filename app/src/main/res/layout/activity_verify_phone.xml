@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.pool.weRide.verifyPhoneActivity">
+    tools:context="com.pool.Weride.verifyPhoneActivity">
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
@@ -19,6 +19,7 @@
             android:layout_centerInParent="true"
             android:layout_marginTop="3dp"
             android:layout_marginEnd="98dp"
+            android:scaleType="fitCenter"
             android:foregroundGravity="center_horizontal"
             android:background="@drawable/icon" />
 

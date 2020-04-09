@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "409721861020",
-    "firebase_url": "https://weride-android-8d032.firebaseio.com",
-    "project_id": "weride-android-8d032",
-    "storage_bucket": "weride-android-8d032.appspot.com"
+    "project_number": "803722975697",
+    "firebase_url": "https://weride-android-6dffd.firebaseio.com",
+    "project_id": "weride-android-6dffd",
+    "storage_bucket": "weride-android-6dffd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:409721861020:android:da23f4b27a68d601eb4e59",
+        "mobilesdk_app_id": "1:803722975697:android:24ea9b2d5ec21a1ea528f0",
         "android_client_info": {
           "package_name": "com.pool.uber"
         }
       },
       "oauth_client": [
         {
-          "client_id": "409721861020-ibd5g00se3fn258oivbq403r8q1vqfht.apps.googleusercontent.com",
+          "client_id": "803722975697-fjo34prdlblhvljkr9qmu1begi0md95t.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.pool.uber",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "409721861020-a9oidt1fnv5923i0bqcu6rp2tt91d54l.apps.googleusercontent.com",
+          "client_id": "803722975697-t0jk33islu8jckn5hbm6i2v0a2pvmmto.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBLi6QjUaPSOLggT-BsdxCW6UEMnh28uWs"
+          "current_key": "AIzaSyCe93sycrmwAYd6meP6l3U_AbxDU0Pg_gg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "409721861020-a9oidt1fnv5923i0bqcu6rp2tt91d54l.apps.googleusercontent.com",
+              "client_id": "803722975697-t0jk33islu8jckn5hbm6i2v0a2pvmmto.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
