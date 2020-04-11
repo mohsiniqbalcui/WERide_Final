@@ -46,7 +46,7 @@ public class signin_activity extends AppCompatActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_singin_activity);
+		setContentView(R.layout.activity_sigin_activity);
 		inputEmail = findViewById(R.id.LoginEmail);
 		inputPassword = findViewById(R.id.LoginPassword);
 		
@@ -207,17 +207,12 @@ public class signin_activity extends AppCompatActivity {
 					@Override
 					public void onComplete(@NonNull Task<AuthResult> task) {
 						if (task.isSuccessful()) {
-							// Sign in success, update UI with the signed-in user's information
 							Log.d(TAG, "signInWithCredential:success");
-							//updateUI(user);
 						} else {
-							// If sign in fails, display a message to the user.
 							Log.w(TAG, "signInWithCredential:failure", task.getException());
 							Toast.makeText(signin_activity.this, "Aut Fail", Toast.LENGTH_SHORT).show();
-							//updateUI(null);
 						}
 						
-						// ...
 					}
 				});
 	}

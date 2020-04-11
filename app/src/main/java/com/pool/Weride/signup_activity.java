@@ -1,6 +1,7 @@
 package com.pool.Weride;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -117,12 +118,29 @@ public class signup_activity extends AppCompatActivity {
 									Log.d("register", "failed");
 									
 								} else {
+									// sucess task
 									
+									String type = "";
+									DatabaseReference current_user_db;
+									
+									SharedPreferences mSharedPreferences1 = getSharedPreferences("type", MODE_PRIVATE);
+									type = mSharedPreferences1.getString("type", "");
 									String user_id = mAuth.getCurrentUser().getUid();
 									
-									DatabaseReference current_user_db = FirebaseDatabase.getInstance().getReference().child("Users").
-											child("Rider").child(user_id);
+									if (type == "driver") {
+										current_user_db = FirebaseDatabase.getInstance().getReference().
+												child("Users").child("Drivers").child(user_id);
+									} else {
+										current_user_db = FirebaseDatabase.getInstance().getReference().
+												child("Users").child("Rider").child(user_id);
+									}
+									
 									current_user_db.setValue(true);
+									
+									Intent intent = new Intent(signup_activity.this, PhoneNumberActivity.class);
+									startActivity(intent);
+									finish();
+									
 									
 									Toast.makeText(signup_activity.this, "Successful", Toast.LENGTH_LONG).show();
 									Log.d("register", "success");
@@ -152,11 +170,7 @@ public class signup_activity extends AppCompatActivity {
 									Log.d(TAG, "createUserWithEmail:success");
 									
 									DatabaseReference current_user_db;
-									String type = "";
-									
-									SharedPreferences mSharedPreferences1 = getSharedPreferences("type", MODE_PRIVATE);
-									
-									type = mSharedPreferences1.getString("type", "");
+								
 									*//*if the driver is *//*
 								
 									if (type=="driver")

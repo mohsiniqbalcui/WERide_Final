@@ -10,18 +10,17 @@
     android:paddingRight="50dp"
     tools:context="com.pool.Weride.signin_activity">
 
+
     <TextView
-        android:layout_width="307dp"
+        android:layout_width="121dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="130dp"
         android:layout_marginBottom="50dp"
-        android:gravity="center"
+        android:layout_gravity="center_horizontal"
         android:text="Login"
         android:textColor="@color/icons"
         android:textSize="40sp"
-        android:textStyle="bold">
-    </TextView>
-
+        android:textStyle="bold"></TextView>
 
     <EditText
         android:id="@+id/LoginEmail"

@@ -4,7 +4,7 @@
     <string name="title_activity_main2">Main2Activity</string>
 
     <string name="email_id">email id</string>
-    <string name="password">password</string>
+    <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="failed">Authentication failed</string>
     <string name="image">image</string>
