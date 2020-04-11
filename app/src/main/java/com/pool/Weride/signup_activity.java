@@ -95,11 +95,15 @@ public class signup_activity extends AppCompatActivity {
 					Toast.makeText(getApplicationContext(), "Enter Password", Toast.LENGTH_SHORT).show();
 					return;
 				}
+				if (password.length() <= 6) {
+					Toast.makeText(signup_activity.this, "please enter password more then 7 digit", Toast.LENGTH_SHORT).show();
+				}
 				
 				if (email.isEmpty() || !android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
 					Toast.makeText(getApplicationContext(), "Enter Email Id", Toast.LENGTH_SHORT).show();
 					return;
 				}
+				
 				progressBar.setVisibility(View.VISIBLE);
 				
 				mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(signup_activity.this,

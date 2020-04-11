@@ -108,7 +108,7 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_costumer_map);
+		setContentView(R.layout.activity_customer_map);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
 
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
@@ -173,8 +173,8 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
 					// only user locaton stored with userkey in firbase geofire method
 
                     pickupLocation = new LatLng(mLastLocation.getLatitude(), mLastLocation.getLongitude());
-//                    pickupMarker = mMap.addMarker(new MarkerOptions()
-//                            .position(pickupLocation).title("Pickup Here").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_pickup)));
+					pickupMarker = mMap.addMarker(new MarkerOptions()
+							.position(pickupLocation).title("Pickup Here").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_pickup)));
 					//  user current location is denoted by the icon and title.
 		
 					mRequest.setText("Getting your Driver....");// button test updated from call driver to getting the drriver
@@ -214,9 +214,6 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
 
 // Specify the types of place data to return.
 		autocompleteFragment.setPlaceFields(Arrays.asList(Place.Field.ID, Place.Field.NAME, Field.LAT_LNG));
-	
-		
-		
 		
         autocompleteFragment.setOnPlaceSelectedListener(new PlaceSelectionListener() {
             @Override
@@ -387,7 +384,7 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
 	
 	
 					/*please remove this comment*/
-//                    mDriverMarker = mMap.addMarker(new MarkerOptions().position(driverLatLng).title("your driver").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_car)));
+					mDriverMarker = mMap.addMarker(new MarkerOptions().position(driverLatLng).title("your driver").icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_car)));
                 }
 
             }
@@ -479,8 +476,8 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
 			DatabaseReference driverRef = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(driverFoundID).child("customerRequest");
 			driverRef.removeValue();
 			driverFoundID = null;
-			
 		}
+		
 		driverFound = false;
 		radius = 1;
 		String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();// customer id
@@ -518,21 +515,29 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
     
     @Override
     public void onMapReady(GoogleMap googleMap) {
-        mMap = googleMap;
 	
-		mLocationRequest = LocationRequest.create(); // new keyword removed and .create added due to current playservices api >12
-		mLocationRequest.setInterval(10000); //10 sec
-		mLocationRequest.setFastestInterval(5000);
-        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-
-        if(android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
+	
+		if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if(ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED){
 
             }else{
                 checkLocationPermission();
             }
         }
-
+		mMap = googleMap;
+	
+	
+		mLocationRequest = LocationRequest.create(); // new keyword removed and .create added due to current playservices api >12
+		mLocationRequest.setInterval(10000); //10 sec
+		mLocationRequest.setFastestInterval(5000);
+		mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+	
+		mMap.getUiSettings().setZoomControlsEnabled(true);
+		mMap.getUiSettings().setMyLocationButtonEnabled(true);
+		mMap.getUiSettings().setMapToolbarEnabled(true);
+		mMap.getUiSettings().setAllGesturesEnabled(true);
+		mMap.getUiSettings().setCompassEnabled(true);
+		mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         mFusedLocationClient.requestLocationUpdates(mLocationRequest, mLocationCallback, Looper.myLooper());
         mMap.setMyLocationEnabled(true);
     }
@@ -541,14 +546,14 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
         @Override
         public void onLocationResult(LocationResult locationResult) {
             for(Location location : locationResult.getLocations()){
-                if(getApplicationContext()!=null){
+				if (getApplicationContext() != null) { // tjis line will handle is activity facing any error befiore opeing it like permission
                     mLastLocation = location;
 
                     LatLng latLng = new LatLng(location.getLatitude(),location.getLongitude());
 	
 					mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-	
-					mMap.animateCamera(CameraUpdateFactory.zoomTo(16));
+		
+					mMap.animateCamera(CameraUpdateFactory.zoomTo(14));
                     if(!getDriversAroundStarted)
                         getDriversAround();
                 }
@@ -625,21 +630,22 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
 	
 	
 	
-	/*deal with all types of users that are around the specfic region or areea */
+	/*deal with all types of drivers  that are around the Rider */
 
     boolean getDriversAroundStarted = false;
     List<Marker> markers = new ArrayList<Marker>();
     private void getDriversAround(){
         getDriversAroundStarted = true;
         DatabaseReference driverLocation = FirebaseDatabase.getInstance().getReference().child("driversAvailable");
-
-
+	
+		/* geo fire to store the user location reference in firebase*/
         GeoFire geoFire = new GeoFire(driverLocation);
 		/*geo firease store the driver location*/
+	
 		GeoQuery geoQuery = geoFire.queryAtLocation(new GeoLocation(mLastLocation.getLongitude(), mLastLocation.getLatitude()),
-				99999);
+				999);
 //geoquery uses firebase quesry to get data fromt eh
-        geoQuery.addGeoQueryEventListener(new GeoQueryEventListener() {
+		geoQuery.addGeoQueryEventListener(new GeoQueryEventListener() {
             @Override
             public void onKeyEntered(String key, GeoLocation location) {
 

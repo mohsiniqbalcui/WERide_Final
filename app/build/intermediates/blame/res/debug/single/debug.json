@@ -12,6 +12,10 @@
         "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_car.png"
     },
     {
+        "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_customer_map.xml.flat",
+        "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\layout\\activity_customer_map.xml"
+    },
+    {
         "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_weride_foreground.png.flat",
         "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_weride_foreground.png"
     },
@@ -64,6 +68,10 @@
         "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\drawable\\icons8_security_checked_24px_1.png"
     },
     {
+        "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_transportation.png.flat",
+        "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\drawable\\transportation.png"
+    },
+    {
         "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_history.xml.flat",
         "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\layout\\activity_history.xml"
     },
@@ -94,10 +102,6 @@
     {
         "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_my_rides.xml.flat",
         "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\drawable\\ic_my_rides.xml"
-    },
-    {
-        "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_costumer_map.xml.flat",
-        "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\layout\\activity_costumer_map.xml"
     },
     {
         "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\menu_main2.xml.flat",
@@ -234,6 +238,10 @@
     {
         "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_weride_round.png.flat",
         "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_weride_round.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vehicle.png.flat",
+        "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\drawable\\vehicle.png"
     },
     {
         "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_car_background.png.flat",
@@ -400,6 +408,10 @@
         "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\drawable\\ic_help_how_black_24dp.xml"
     },
     {
+        "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rikshaw.jpg.flat",
+        "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\drawable\\rikshaw.jpg"
+    },
+    {
         "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rider.png.flat",
         "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\drawable\\rider.png"
     },
@@ -494,6 +506,10 @@
     {
         "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_share.xml.flat",
         "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\drawable-v21\\ic_menu_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rickshaw.png.flat",
+        "source": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\src\\main\\res\\drawable\\rickshaw.png"
     },
     {
         "merged": "C:\\Users\\hp\\Documents\\EGDownloads\\Compressed\\1 WeRide\\WERide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_exit.xml.flat",

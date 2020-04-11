@@ -117,6 +117,7 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
 		mLogout = findViewById(R.id.logout);
 		mRideStatus = findViewById(R.id.rideStatus);
 		mHistory = findViewById(R.id.history);
+        
         mRideStatus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -481,9 +482,11 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
     }
 
     private void disconnectDriver(){
+    
         if(mFusedLocationClient != null){
             mFusedLocationClient.removeLocationUpdates(mLocationCallback);
         }
+    
         String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
         DatabaseReference ref = FirebaseDatabase.getInstance().getReference("driversAvailable");
 

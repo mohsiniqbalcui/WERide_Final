@@ -9,6 +9,7 @@
         android:id="@+id/map1"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
+        android:layout_marginBottom="80dp"
         android:layout_height="match_parent" />
 
     <RelativeLayout
@@ -21,8 +22,7 @@
             android:id="@+id/buttons">
 
             <Button
-                android:layout_weight="1"
-                android:layout_width="0dp"
+                android:layout_width="144dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/logout1"
                 android:text="logout" />
@@ -30,6 +30,7 @@
             <Button
                 android:layout_weight="1"
                 android:layout_width="0dp"
+                android:visibility="gone"
                 android:layout_height="wrap_content"
                 android:id="@+id/history1"
                 android:text="history" />
@@ -37,6 +38,7 @@
             <Button
                 android:layout_weight="1"
                 android:layout_width="0dp"
+                android:visibility="gone"
                 android:layout_height="wrap_content"
                 android:id="@+id/settings1"
                 android:text="Settings" />
@@ -127,18 +129,18 @@
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Rick Shaw Ride"
+                    android:text="Rick Shaw "
                     android:layout_marginRight="20dp"
-                    android:drawableLeft="@mipmap/ic_launcher_car_round"
-                    android:id="@+id/Uberr" />
+                    android:drawableLeft="@drawable/rickshaw"
+                    android:id="@+id/RickShaw" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Car Ride"
+                    android:text="Car"
                     android:layout_marginLeft="10dp"
-                    android:drawableLeft="@mipmap/ic_launcher_car_round"
-                    android:id="@+id/Goplus" />
+                    android:drawableLeft="@drawable/transportation"
+                    android:id="@+id/car" />
 
 
             </RadioGroup>
